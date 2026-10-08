@@ -1,0 +1,97 @@
+[
+  {
+    "Test": "test_action_menu.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_attack_click.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_battle_presentation.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_casualty_zoc.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_cursor_inspection.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_default_turns.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_engagement.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_extended_sprites.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_faction_move_undo.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_formation.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_interaction.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_phases.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_play_cycle.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_sprite_deployment.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_sprite_integration.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_tactical_turn.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_tactics.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_terrain_ai.gd",
+    "Exit": 0,
+    "Errors": false
+  },
+  {
+    "Test": "test_ui.gd",
+    "Exit": 0,
+    "Errors": false
+  }
+]

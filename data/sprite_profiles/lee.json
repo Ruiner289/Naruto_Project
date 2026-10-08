@@ -1,0 +1,627 @@
+{
+  "id": "lee",
+  "source": "메인캐/록 리/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Rock Lee.png",
+  "source_sha256": "a11073ecb4c6abf4c743b4a58b706f2117b8bdd8cae9b646a1fc3bd0e8b77d1d",
+  "default_facing": "right",
+  "scale": 1.8824,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/lee/idle_00.png",
+          "source_rect": [
+            0,
+            1238,
+            44,
+            56
+          ],
+          "source_foot": [
+            21,
+            52
+          ],
+          "bbox": [
+            5,
+            2,
+            40,
+            52
+          ],
+          "source_body_core": [
+            20.706734434561625,
+            28.810927573062262
+          ],
+          "registered_body_core": [
+            119.70673443456162,
+            76.81092757306226
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/idle_01.png",
+          "source_rect": [
+            44,
+            1238,
+            44,
+            56
+          ],
+          "source_foot": [
+            20,
+            52
+          ],
+          "bbox": [
+            5,
+            2,
+            40,
+            52
+          ],
+          "source_body_core": [
+            20.081971752977015,
+            29.060924951536972
+          ],
+          "registered_body_core": [
+            120.08197175297701,
+            77.06092495153698
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/idle_02.png",
+          "source_rect": [
+            88,
+            1238,
+            44,
+            56
+          ],
+          "source_foot": [
+            21,
+            51
+          ],
+          "bbox": [
+            5,
+            1,
+            40,
+            52
+          ],
+          "source_body_core": [
+            21.00254000508001,
+            28.17272034544069
+          ],
+          "registered_body_core": [
+            120.00254000508001,
+            77.1727203454407
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/idle_03.png",
+          "source_rect": [
+            132,
+            1238,
+            42,
+            56
+          ],
+          "source_foot": [
+            22,
+            52
+          ],
+          "bbox": [
+            5,
+            3,
+            40,
+            52
+          ],
+          "source_body_core": [
+            21.633200094051258,
+            28.52010345638373
+          ],
+          "registered_body_core": [
+            119.63320009405126,
+            76.52010345638374
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/lee/move_00.png",
+          "source_rect": [
+            0,
+            357,
+            54,
+            49
+          ],
+          "source_foot": [
+            27,
+            40
+          ],
+          "bbox": [
+            2,
+            1,
+            48,
+            39
+          ],
+          "source_body_core": [
+            26.75586542718017,
+            20.660690571049138
+          ],
+          "registered_body_core": [
+            119.75586542718017,
+            80.66069057104914
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/move_01.png",
+          "source_rect": [
+            54,
+            357,
+            54,
+            49
+          ],
+          "source_foot": [
+            25,
+            41
+          ],
+          "bbox": [
+            2,
+            1,
+            48,
+            39
+          ],
+          "source_body_core": [
+            24.900525334689036,
+            21.64683951872564
+          ],
+          "registered_body_core": [
+            119.90052533468904,
+            80.64683951872564
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/move_02.png",
+          "source_rect": [
+            108,
+            357,
+            54,
+            49
+          ],
+          "source_foot": [
+            24,
+            41
+          ],
+          "bbox": [
+            9,
+            0,
+            47,
+            43
+          ],
+          "source_body_core": [
+            23.657477243172952,
+            22.49518855656697
+          ],
+          "registered_body_core": [
+            119.65747724317295,
+            81.49518855656697
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/move_03.png",
+          "source_rect": [
+            162,
+            357,
+            54,
+            49
+          ],
+          "source_foot": [
+            25,
+            42
+          ],
+          "bbox": [
+            4,
+            1,
+            48,
+            43
+          ],
+          "source_body_core": [
+            25.141224665804227,
+            22.936394997843898
+          ],
+          "registered_body_core": [
+            120.14122466580423,
+            80.9363949978439
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/move_04.png",
+          "source_rect": [
+            216,
+            357,
+            54,
+            49
+          ],
+          "source_foot": [
+            23,
+            40
+          ],
+          "bbox": [
+            0,
+            1,
+            48,
+            39
+          ],
+          "source_body_core": [
+            22.71704048140044,
+            21.400437636761488
+          ],
+          "registered_body_core": [
+            119.71704048140043,
+            81.4004376367615
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/move_05.png",
+          "source_rect": [
+            270,
+            357,
+            52,
+            49
+          ],
+          "source_foot": [
+            25,
+            39
+          ],
+          "bbox": [
+            9,
+            0,
+            47,
+            40
+          ],
+          "source_body_core": [
+            24.715943113772454,
+            19.787612275449103
+          ],
+          "registered_body_core": [
+            119.71594311377245,
+            80.7876122754491
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/lee/attack_00.png",
+          "source_rect": [
+            0,
+            0,
+            50,
+            56
+          ],
+          "source_foot": [
+            28,
+            55
+          ],
+          "bbox": [
+            0,
+            5,
+            41,
+            55
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/attack_01.png",
+          "source_rect": [
+            50,
+            0,
+            50,
+            56
+          ],
+          "source_foot": [
+            29,
+            55
+          ],
+          "bbox": [
+            1,
+            5,
+            47,
+            55
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/attack_02.png",
+          "source_rect": [
+            100,
+            0,
+            50,
+            56
+          ],
+          "source_foot": [
+            29,
+            55
+          ],
+          "bbox": [
+            1,
+            6,
+            46,
+            55
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/attack_03.png",
+          "source_rect": [
+            150,
+            0,
+            48,
+            56
+          ],
+          "source_foot": [
+            30,
+            55
+          ],
+          "bbox": [
+            1,
+            5,
+            41,
+            55
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/lee/hit_00.png",
+          "source_rect": [
+            0,
+            832,
+            55,
+            58
+          ],
+          "source_foot": [
+            30,
+            52
+          ],
+          "bbox": [
+            4,
+            4,
+            37,
+            52
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/hit_01.png",
+          "source_rect": [
+            55,
+            832,
+            53,
+            58
+          ],
+          "source_foot": [
+            32,
+            52
+          ],
+          "bbox": [
+            2,
+            6,
+            39,
+            52
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/lee/ko_00.png",
+          "source_rect": [
+            264,
+            892,
+            64,
+            46
+          ],
+          "source_foot": [
+            34,
+            38
+          ],
+          "bbox": [
+            0,
+            17,
+            58,
+            38
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/ko_01.png",
+          "source_rect": [
+            198,
+            892,
+            66,
+            46
+          ],
+          "source_foot": [
+            38,
+            39
+          ],
+          "bbox": [
+            2,
+            6,
+            56,
+            39
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/ko_02.png",
+          "source_rect": [
+            132,
+            892,
+            66,
+            46
+          ],
+          "source_foot": [
+            34,
+            35
+          ],
+          "bbox": [
+            0,
+            14,
+            58,
+            35
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/ko_03.png",
+          "source_rect": [
+            66,
+            892,
+            66,
+            46
+          ],
+          "source_foot": [
+            38,
+            33
+          ],
+          "bbox": [
+            2,
+            0,
+            56,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/lee/ko_04.png",
+          "source_rect": [
+            0,
+            892,
+            66,
+            46
+          ],
+          "source_foot": [
+            30,
+            39
+          ],
+          "bbox": [
+            2,
+            18,
+            58,
+            39
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

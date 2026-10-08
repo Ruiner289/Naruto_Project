@@ -1,0 +1,624 @@
+{
+  "id": "generic_dart",
+  "source": "범용캐/다트닌자/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Enemies - Dart Ninja.png",
+  "source_sha256": "89a60969fded047191df76f9de4a8d6ed8747b001039a2e0ea8e1549b5de76e8",
+  "default_facing": "left",
+  "scale": 1.8824,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_dart/idle_00.png",
+          "source_rect": [
+            0,
+            0,
+            50,
+            58
+          ],
+          "source_foot": [
+            25,
+            56
+          ],
+          "bbox": [
+            2,
+            6,
+            43,
+            55
+          ],
+          "source_body_core": [
+            24.626602322424972,
+            30.776202684361333
+          ],
+          "registered_body_core": [
+            119.62660232242497,
+            74.77620268436134
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/idle_01.png",
+          "source_rect": [
+            50,
+            0,
+            50,
+            58
+          ],
+          "source_foot": [
+            25,
+            56
+          ],
+          "bbox": [
+            2,
+            5,
+            44,
+            55
+          ],
+          "source_body_core": [
+            25.29530486509454,
+            30.666879116209902
+          ],
+          "registered_body_core": [
+            120.29530486509454,
+            74.6668791162099
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/idle_02.png",
+          "source_rect": [
+            100,
+            0,
+            50,
+            58
+          ],
+          "source_foot": [
+            26,
+            55
+          ],
+          "bbox": [
+            3,
+            4,
+            45,
+            55
+          ],
+          "source_body_core": [
+            26.22415690335944,
+            30.203637775907826
+          ],
+          "registered_body_core": [
+            120.22415690335944,
+            75.20363777590782
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/idle_03.png",
+          "source_rect": [
+            150,
+            0,
+            48,
+            58
+          ],
+          "source_foot": [
+            27,
+            55
+          ],
+          "bbox": [
+            5,
+            4,
+            46,
+            55
+          ],
+          "source_body_core": [
+            26.61805222397368,
+            29.98855458844493
+          ],
+          "registered_body_core": [
+            119.61805222397368,
+            74.98855458844493
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          120,
+          88
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_00.png",
+          "source_rect": [
+            0,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            36,
+            44
+          ],
+          "bbox": [
+            11,
+            2,
+            64,
+            45
+          ],
+          "source_body_core": [
+            36.088809368900456,
+            24.394925178919973
+          ],
+          "registered_body_core": [
+            120.08880936890046,
+            80.39492517891998
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_01.png",
+          "source_rect": [
+            74,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            36,
+            48
+          ],
+          "bbox": [
+            16,
+            9,
+            58,
+            47
+          ],
+          "source_body_core": [
+            35.64118782161235,
+            27.821183533447684
+          ],
+          "registered_body_core": [
+            119.64118782161235,
+            79.82118353344768
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_02.png",
+          "source_rect": [
+            148,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            36,
+            48
+          ],
+          "bbox": [
+            17,
+            8,
+            54,
+            47
+          ],
+          "source_body_core": [
+            36.09957067371202,
+            27.832562747688243
+          ],
+          "registered_body_core": [
+            120.09957067371202,
+            79.83256274768824
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_03.png",
+          "source_rect": [
+            222,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            35,
+            48
+          ],
+          "bbox": [
+            17,
+            7,
+            56,
+            48
+          ],
+          "source_body_core": [
+            35.242737136856846,
+            27.56842842142107
+          ],
+          "registered_body_core": [
+            120.24273713685685,
+            79.56842842142107
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_04.png",
+          "source_rect": [
+            296,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            38,
+            47
+          ],
+          "bbox": [
+            17,
+            6,
+            63,
+            46
+          ],
+          "source_body_core": [
+            38.0001217730151,
+            26.553580126643936
+          ],
+          "registered_body_core": [
+            120.00012177301511,
+            79.55358012664394
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_05.png",
+          "source_rect": [
+            370,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            36,
+            49
+          ],
+          "bbox": [
+            17,
+            9,
+            56,
+            48
+          ],
+          "source_body_core": [
+            36.35139146567718,
+            29.16116264687693
+          ],
+          "registered_body_core": [
+            120.35139146567718,
+            80.16116264687693
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_06.png",
+          "source_rect": [
+            444,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            33,
+            47
+          ],
+          "bbox": [
+            16,
+            8,
+            50,
+            48
+          ],
+          "source_body_core": [
+            32.99088189200741,
+            27.252600085482264
+          ],
+          "registered_body_core": [
+            119.99088189200741,
+            80.25260008548227
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/move_07.png",
+          "source_rect": [
+            518,
+            58,
+            74,
+            56
+          ],
+          "source_foot": [
+            37,
+            48
+          ],
+          "bbox": [
+            11,
+            7,
+            59,
+            48
+          ],
+          "source_body_core": [
+            36.94249201277955,
+            27.54419595314164
+          ],
+          "registered_body_core": [
+            119.94249201277955,
+            79.54419595314164
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          120,
+          88
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_dart/attack_00.png",
+          "source_rect": [
+            0,
+            114,
+            58,
+            58
+          ],
+          "source_foot": [
+            25,
+            49
+          ],
+          "bbox": [
+            8,
+            0,
+            40,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/attack_01.png",
+          "source_rect": [
+            58,
+            114,
+            55,
+            58
+          ],
+          "source_foot": [
+            25,
+            49
+          ],
+          "bbox": [
+            6,
+            0,
+            55,
+            49
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          120,
+          88
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_dart/hit_00.png",
+          "source_rect": [
+            0,
+            172,
+            48,
+            50
+          ],
+          "source_foot": [
+            25,
+            45
+          ],
+          "bbox": [
+            6,
+            0,
+            48,
+            45
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          120,
+          88
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_dart/ko_00.png",
+          "source_rect": [
+            0,
+            222,
+            66,
+            48
+          ],
+          "source_foot": [
+            39,
+            39
+          ],
+          "bbox": [
+            7,
+            14,
+            57,
+            39
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/ko_01.png",
+          "source_rect": [
+            66,
+            222,
+            66,
+            48
+          ],
+          "source_foot": [
+            33,
+            40
+          ],
+          "bbox": [
+            10,
+            10,
+            57,
+            40
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/ko_02.png",
+          "source_rect": [
+            132,
+            222,
+            66,
+            48
+          ],
+          "source_foot": [
+            33,
+            38
+          ],
+          "bbox": [
+            10,
+            8,
+            57,
+            38
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/ko_03.png",
+          "source_rect": [
+            198,
+            222,
+            66,
+            48
+          ],
+          "source_foot": [
+            33,
+            36
+          ],
+          "bbox": [
+            10,
+            6,
+            57,
+            36
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_dart/ko_04.png",
+          "source_rect": [
+            264,
+            222,
+            58,
+            48
+          ],
+          "source_foot": [
+            39,
+            39
+          ],
+          "bbox": [
+            8,
+            12,
+            57,
+            39
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          120,
+          88
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

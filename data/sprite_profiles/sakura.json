@@ -1,0 +1,589 @@
+{
+  "id": "sakura",
+  "source": "메인캐/하루노 사쿠라/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Sakura Haruno.png",
+  "source_sha256": "0fe7b96959b74fb824dc995f609c46d7f75842c7e68e37dad3a1059fbeebfe52",
+  "default_facing": "right",
+  "scale": 1.9592,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sakura/idle_00.png",
+          "source_rect": [
+            0,
+            10,
+            39,
+            61
+          ],
+          "source_foot": [
+            18,
+            59
+          ],
+          "bbox": [
+            6,
+            10,
+            34,
+            59
+          ],
+          "source_body_core": [
+            17.8519527702089,
+            36.64986376021798
+          ],
+          "registered_body_core": [
+            119.8519527702089,
+            77.64986376021798
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/idle_01.png",
+          "source_rect": [
+            39,
+            10,
+            39,
+            61
+          ],
+          "source_foot": [
+            17,
+            58
+          ],
+          "bbox": [
+            5,
+            12,
+            32,
+            59
+          ],
+          "source_body_core": [
+            17.34450784593438,
+            36.374821683309555
+          ],
+          "registered_body_core": [
+            120.34450784593437,
+            78.37482168330956
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/idle_02.png",
+          "source_rect": [
+            78,
+            10,
+            37,
+            61
+          ],
+          "source_foot": [
+            15,
+            60
+          ],
+          "bbox": [
+            1,
+            14,
+            32,
+            59
+          ],
+          "source_body_core": [
+            15.14763779527559,
+            37.80748031496063
+          ],
+          "registered_body_core": [
+            120.14763779527559,
+            77.80748031496063
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/idle_03.png",
+          "source_rect": [
+            115,
+            10,
+            37,
+            61
+          ],
+          "source_foot": [
+            15,
+            60
+          ],
+          "bbox": [
+            1,
+            15,
+            32,
+            59
+          ],
+          "source_body_core": [
+            14.813793103448276,
+            38.42298850574713
+          ],
+          "registered_body_core": [
+            119.81379310344828,
+            78.42298850574713
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sakura/move_00.png",
+          "source_rect": [
+            0,
+            151,
+            55,
+            49
+          ],
+          "source_foot": [
+            23,
+            47
+          ],
+          "bbox": [
+            3,
+            5,
+            45,
+            47
+          ],
+          "source_body_core": [
+            23.42859768424922,
+            26.963242051093548
+          ],
+          "registered_body_core": [
+            120.42859768424921,
+            79.96324205109354
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/move_01.png",
+          "source_rect": [
+            55,
+            151,
+            55,
+            49
+          ],
+          "source_foot": [
+            23,
+            46
+          ],
+          "bbox": [
+            7,
+            4,
+            43,
+            47
+          ],
+          "source_body_core": [
+            22.664528860384806,
+            26.349284657128763
+          ],
+          "registered_body_core": [
+            119.6645288603848,
+            80.34928465712876
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/move_02.png",
+          "source_rect": [
+            110,
+            151,
+            56,
+            49
+          ],
+          "source_foot": [
+            24,
+            42
+          ],
+          "bbox": [
+            4,
+            3,
+            45,
+            41
+          ],
+          "source_body_core": [
+            23.552300432559967,
+            21.5505308690523
+          ],
+          "registered_body_core": [
+            119.55230043255997,
+            79.5505308690523
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/move_03.png",
+          "source_rect": [
+            166,
+            151,
+            54,
+            49
+          ],
+          "source_foot": [
+            21,
+            47
+          ],
+          "bbox": [
+            5,
+            6,
+            46,
+            47
+          ],
+          "source_body_core": [
+            21.370542635658914,
+            26.851605758582505
+          ],
+          "registered_body_core": [
+            120.37054263565892,
+            79.85160575858251
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/move_04.png",
+          "source_rect": [
+            220,
+            151,
+            56,
+            49
+          ],
+          "source_foot": [
+            23,
+            47
+          ],
+          "bbox": [
+            11,
+            4,
+            46,
+            47
+          ],
+          "source_body_core": [
+            23.28228672985782,
+            26.90462085308057
+          ],
+          "registered_body_core": [
+            120.28228672985782,
+            79.90462085308057
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/move_05.png",
+          "source_rect": [
+            276,
+            151,
+            54,
+            49
+          ],
+          "source_foot": [
+            23,
+            44
+          ],
+          "bbox": [
+            2,
+            2,
+            44,
+            45
+          ],
+          "source_body_core": [
+            23.048609235754792,
+            24.08749662435863
+          ],
+          "registered_body_core": [
+            120.0486092357548,
+            80.08749662435864
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sakura/attack_00.png",
+          "source_rect": [
+            0,
+            694,
+            61,
+            49
+          ],
+          "source_foot": [
+            25,
+            47
+          ],
+          "bbox": [
+            3,
+            6,
+            39,
+            47
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/attack_01.png",
+          "source_rect": [
+            61,
+            694,
+            61,
+            49
+          ],
+          "source_foot": [
+            25,
+            47
+          ],
+          "bbox": [
+            12,
+            3,
+            55,
+            47
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/attack_02.png",
+          "source_rect": [
+            122,
+            694,
+            61,
+            49
+          ],
+          "source_foot": [
+            25,
+            47
+          ],
+          "bbox": [
+            12,
+            4,
+            53,
+            47
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sakura/hit_00.png",
+          "source_rect": [
+            0,
+            1000,
+            40,
+            50
+          ],
+          "source_foot": [
+            31,
+            48
+          ],
+          "bbox": [
+            3,
+            3,
+            36,
+            48
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/hit_01.png",
+          "source_rect": [
+            40,
+            1000,
+            38,
+            50
+          ],
+          "source_foot": [
+            20,
+            48
+          ],
+          "bbox": [
+            7,
+            5,
+            34,
+            48
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sakura/ko_00.png",
+          "source_rect": [
+            181,
+            1060,
+            59,
+            39
+          ],
+          "source_foot": [
+            32,
+            37
+          ],
+          "bbox": [
+            5,
+            12,
+            55,
+            37
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/ko_01.png",
+          "source_rect": [
+            121,
+            1060,
+            60,
+            39
+          ],
+          "source_foot": [
+            32,
+            34
+          ],
+          "bbox": [
+            5,
+            9,
+            55,
+            34
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/ko_02.png",
+          "source_rect": [
+            61,
+            1060,
+            60,
+            39
+          ],
+          "source_foot": [
+            32,
+            30
+          ],
+          "bbox": [
+            5,
+            5,
+            55,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sakura/ko_03.png",
+          "source_rect": [
+            0,
+            1060,
+            61,
+            39
+          ],
+          "source_foot": [
+            23,
+            37
+          ],
+          "bbox": [
+            7,
+            20,
+            57,
+            37
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

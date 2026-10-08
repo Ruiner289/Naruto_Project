@@ -1,0 +1,526 @@
+{
+  "id": "kurenai",
+  "source": "메인캐/유우히 쿠레나이/kurenai_sprite.png",
+  "source_sha256": "7a6ecd3de69e1bfe682a1e3d6ee68c1d69b98ba82cd53aa1860c42e0c06b3182",
+  "default_facing": "right",
+  "scale": 1.5484,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kurenai/idle_00.png",
+          "source_rect": [
+            0,
+            65,
+            48,
+            80
+          ],
+          "source_foot": [
+            32,
+            72
+          ],
+          "bbox": [
+            19,
+            10,
+            41,
+            72
+          ],
+          "source_body_core": [
+            31.604289071680377,
+            42.608108108108105
+          ],
+          "registered_body_core": [
+            119.60428907168037,
+            70.6081081081081
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/idle_01.png",
+          "source_rect": [
+            48,
+            65,
+            36,
+            80
+          ],
+          "source_foot": [
+            20,
+            71
+          ],
+          "bbox": [
+            7,
+            9,
+            29,
+            71
+          ],
+          "source_body_core": [
+            19.604289071680377,
+            41.608108108108105
+          ],
+          "registered_body_core": [
+            119.60428907168037,
+            70.6081081081081
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/idle_02.png",
+          "source_rect": [
+            84,
+            65,
+            36,
+            80
+          ],
+          "source_foot": [
+            19,
+            73
+          ],
+          "bbox": [
+            6,
+            11,
+            28,
+            73
+          ],
+          "source_body_core": [
+            18.604289071680377,
+            43.608108108108105
+          ],
+          "registered_body_core": [
+            119.60428907168037,
+            70.6081081081081
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/idle_03.png",
+          "source_rect": [
+            120,
+            65,
+            39,
+            80
+          ],
+          "source_foot": [
+            21,
+            71
+          ],
+          "bbox": [
+            8,
+            9,
+            31,
+            71
+          ],
+          "source_body_core": [
+            20.604289071680377,
+            41.608108108108105
+          ],
+          "registered_body_core": [
+            119.60428907168037,
+            70.6081081081081
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kurenai/move_00.png",
+          "source_rect": [
+            0,
+            205,
+            61,
+            75
+          ],
+          "source_foot": [
+            38,
+            62
+          ],
+          "bbox": [
+            16,
+            12,
+            59,
+            62
+          ],
+          "source_body_core": [
+            38.10196326789107,
+            39.4230525649145
+          ],
+          "registered_body_core": [
+            120.10196326789108,
+            77.4230525649145
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/move_01.png",
+          "source_rect": [
+            61,
+            205,
+            45,
+            75
+          ],
+          "source_foot": [
+            19,
+            63
+          ],
+          "bbox": [
+            1,
+            12,
+            38,
+            64
+          ],
+          "source_body_core": [
+            18.83075495049505,
+            39.68502475247525
+          ],
+          "registered_body_core": [
+            119.83075495049505,
+            76.68502475247524
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/move_02.png",
+          "source_rect": [
+            106,
+            205,
+            63,
+            75
+          ],
+          "source_foot": [
+            28,
+            61
+          ],
+          "bbox": [
+            6,
+            12,
+            57,
+            61
+          ],
+          "source_body_core": [
+            27.71266735324408,
+            38.25540679711637
+          ],
+          "registered_body_core": [
+            119.71266735324409,
+            77.25540679711636
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/move_03.png",
+          "source_rect": [
+            169,
+            205,
+            54,
+            75
+          ],
+          "source_foot": [
+            24,
+            67
+          ],
+          "bbox": [
+            5,
+            17,
+            49,
+            67
+          ],
+          "source_body_core": [
+            23.69894291754757,
+            44.077167019027485
+          ],
+          "registered_body_core": [
+            119.69894291754757,
+            77.07716701902748
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/move_04.png",
+          "source_rect": [
+            223,
+            205,
+            71,
+            75
+          ],
+          "source_foot": [
+            33,
+            65
+          ],
+          "bbox": [
+            4,
+            14,
+            63,
+            63
+          ],
+          "source_body_core": [
+            32.64979291302347,
+            41.74302807179015
+          ],
+          "registered_body_core": [
+            119.64979291302348,
+            76.74302807179015
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kurenai/attack_00.png",
+          "source_rect": [
+            0,
+            875,
+            48,
+            75
+          ],
+          "source_foot": [
+            33,
+            66
+          ],
+          "bbox": [
+            24,
+            3,
+            43,
+            66
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/attack_01.png",
+          "source_rect": [
+            48,
+            875,
+            53,
+            75
+          ],
+          "source_foot": [
+            23,
+            66
+          ],
+          "bbox": [
+            6,
+            3,
+            47,
+            66
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/attack_02.png",
+          "source_rect": [
+            101,
+            875,
+            52,
+            75
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            7,
+            5,
+            44,
+            68
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kurenai/hit_00.png",
+          "source_rect": [
+            0,
+            490,
+            57,
+            70
+          ],
+          "source_foot": [
+            36,
+            61
+          ],
+          "bbox": [
+            17,
+            10,
+            49,
+            61
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/hit_01.png",
+          "source_rect": [
+            57,
+            490,
+            74,
+            70
+          ],
+          "source_foot": [
+            33,
+            61
+          ],
+          "bbox": [
+            9,
+            30,
+            68,
+            61
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kurenai/ko_00.png",
+          "source_rect": [
+            58,
+            490,
+            73,
+            70
+          ],
+          "source_foot": [
+            32,
+            61
+          ],
+          "bbox": [
+            8,
+            30,
+            67,
+            61
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kurenai/ko_01.png",
+          "source_rect": [
+            131,
+            490,
+            65,
+            70
+          ],
+          "source_foot": [
+            20,
+            60
+          ],
+          "bbox": [
+            7,
+            44,
+            61,
+            60
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "User-selected alternate GitHub sheet kurenai_sprite.png, replacing the wrapped-dress sheet. Basic three-pose palm strike only; no flower effects. KO ends lying down."
+  ],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

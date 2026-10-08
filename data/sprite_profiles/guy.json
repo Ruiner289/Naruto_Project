@@ -1,0 +1,627 @@
+{
+  "id": "guy",
+  "source": "메인캐/마이트 가이/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Might Guy.png",
+  "source_sha256": "4940bf9d94c9a4583c44df84e56c27a52a4eeab4fe1c64c8b775f712710dfc33",
+  "default_facing": "right",
+  "scale": 1.4118,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/guy/idle_00.png",
+          "source_rect": [
+            0,
+            1464,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            68
+          ],
+          "bbox": [
+            0,
+            0,
+            38,
+            68
+          ],
+          "source_body_core": [
+            13.150251466890193,
+            34.02032690695725
+          ],
+          "registered_body_core": [
+            120.1502514668902,
+            66.02032690695725
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/idle_01.png",
+          "source_rect": [
+            42,
+            1464,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            68
+          ],
+          "bbox": [
+            0,
+            0,
+            37,
+            68
+          ],
+          "source_body_core": [
+            13.085420944558521,
+            33.92340862422998
+          ],
+          "registered_body_core": [
+            120.08542094455852,
+            65.92340862422998
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/idle_02.png",
+          "source_rect": [
+            84,
+            1464,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            68
+          ],
+          "bbox": [
+            0,
+            0,
+            36,
+            68
+          ],
+          "source_body_core": [
+            12.945178071228492,
+            34.039415766306526
+          ],
+          "registered_body_core": [
+            119.9451780712285,
+            66.03941576630652
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/idle_03.png",
+          "source_rect": [
+            126,
+            1464,
+            40,
+            72
+          ],
+          "source_foot": [
+            13,
+            68
+          ],
+          "bbox": [
+            0,
+            0,
+            34,
+            68
+          ],
+          "source_body_core": [
+            12.759714345725689,
+            33.683889939088424
+          ],
+          "registered_body_core": [
+            119.75971434572568,
+            65.68388993908843
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          144,
+          152,
+          184
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/guy/move_00.png",
+          "source_rect": [
+            0,
+            452,
+            78,
+            68
+          ],
+          "source_foot": [
+            36,
+            67
+          ],
+          "bbox": [
+            6,
+            10,
+            58,
+            68
+          ],
+          "source_body_core": [
+            35.945384035333404,
+            40.47549283636755
+          ],
+          "registered_body_core": [
+            119.9453840353334,
+            73.47549283636755
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/move_01.png",
+          "source_rect": [
+            78,
+            452,
+            78,
+            68
+          ],
+          "source_foot": [
+            34,
+            67
+          ],
+          "bbox": [
+            0,
+            12,
+            61,
+            64
+          ],
+          "source_body_core": [
+            33.905119692468986,
+            40.14135942687402
+          ],
+          "registered_body_core": [
+            119.90511969246899,
+            73.14135942687402
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/move_02.png",
+          "source_rect": [
+            156,
+            452,
+            78,
+            68
+          ],
+          "source_foot": [
+            33,
+            68
+          ],
+          "bbox": [
+            11,
+            12,
+            59,
+            67
+          ],
+          "source_body_core": [
+            32.55417227456258,
+            40.81695827725437
+          ],
+          "registered_body_core": [
+            119.55417227456257,
+            72.81695827725437
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/move_03.png",
+          "source_rect": [
+            234,
+            452,
+            78,
+            68
+          ],
+          "source_foot": [
+            36,
+            67
+          ],
+          "bbox": [
+            8,
+            10,
+            57,
+            67
+          ],
+          "source_body_core": [
+            35.7287392104146,
+            39.60520730154238
+          ],
+          "registered_body_core": [
+            119.7287392104146,
+            72.60520730154238
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/move_04.png",
+          "source_rect": [
+            312,
+            452,
+            78,
+            68
+          ],
+          "source_foot": [
+            35,
+            67
+          ],
+          "bbox": [
+            1,
+            11,
+            63,
+            65
+          ],
+          "source_body_core": [
+            35.36497856802667,
+            39.83473567232894
+          ],
+          "registered_body_core": [
+            120.36497856802667,
+            72.83473567232895
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/move_05.png",
+          "source_rect": [
+            390,
+            452,
+            76,
+            68
+          ],
+          "source_foot": [
+            36,
+            66
+          ],
+          "bbox": [
+            13,
+            10,
+            58,
+            68
+          ],
+          "source_body_core": [
+            36.29258630447085,
+            39.318279569892475
+          ],
+          "registered_body_core": [
+            120.29258630447086,
+            73.31827956989247
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          144,
+          152,
+          184
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/guy/attack_00.png",
+          "source_rect": [
+            0,
+            0,
+            66,
+            72
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            0,
+            2,
+            34,
+            68
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/attack_01.png",
+          "source_rect": [
+            66,
+            0,
+            66,
+            72
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            2,
+            4,
+            58,
+            68
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/attack_02.png",
+          "source_rect": [
+            132,
+            0,
+            66,
+            72
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            2,
+            6,
+            58,
+            68
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/attack_03.png",
+          "source_rect": [
+            198,
+            0,
+            66,
+            72
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            2,
+            6,
+            56,
+            68
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/attack_04.png",
+          "source_rect": [
+            264,
+            0,
+            64,
+            72
+          ],
+          "source_foot": [
+            18,
+            68
+          ],
+          "bbox": [
+            2,
+            4,
+            51,
+            68
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          144,
+          152,
+          184
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/guy/hit_00.png",
+          "source_rect": [
+            0,
+            1062,
+            50,
+            96
+          ],
+          "source_foot": [
+            22,
+            90
+          ],
+          "bbox": [
+            6,
+            22,
+            44,
+            90
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/hit_01.png",
+          "source_rect": [
+            50,
+            1062,
+            48,
+            96
+          ],
+          "source_foot": [
+            17,
+            90
+          ],
+          "bbox": [
+            0,
+            19,
+            36,
+            90
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          144,
+          152,
+          184
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/guy/ko_00.png",
+          "source_rect": [
+            222,
+            1160,
+            72,
+            32
+          ],
+          "source_foot": [
+            37,
+            32
+          ],
+          "bbox": [
+            1,
+            8,
+            68,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/ko_01.png",
+          "source_rect": [
+            148,
+            1160,
+            74,
+            32
+          ],
+          "source_foot": [
+            37,
+            24
+          ],
+          "bbox": [
+            1,
+            0,
+            68,
+            24
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/ko_02.png",
+          "source_rect": [
+            74,
+            1160,
+            74,
+            32
+          ],
+          "source_foot": [
+            37,
+            27
+          ],
+          "bbox": [
+            1,
+            3,
+            68,
+            27
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/guy/ko_03.png",
+          "source_rect": [
+            0,
+            1160,
+            74,
+            32
+          ],
+          "source_foot": [
+            35,
+            32
+          ],
+          "bbox": [
+            0,
+            12,
+            66,
+            32
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          144,
+          152,
+          184
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

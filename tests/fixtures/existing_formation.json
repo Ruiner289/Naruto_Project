@@ -1,0 +1,35 @@
+{
+	"leader_id": "kakashi",
+	"members": [
+		{
+			"ninja_id": "kakashi",
+			"position": {
+				"column": 2,
+				"row_offset": 0.0
+			}
+		},
+		{
+			"ninja_id": "yamato",
+			"position": {
+				"column": 1,
+				"row_offset": 1.0
+			}
+		},
+		{
+			"ninja_id": "shikamaru",
+			"position": {
+				"column": 0,
+				"row_offset": 1.0
+			}
+		},
+		{
+			"ninja_id": "choji",
+			"position": {
+				"column": 2,
+				"row_offset": 2.0
+			}
+		}
+	],
+	"squad_name": "나뭇잎 시험 부대",
+	"version": 1
+}

@@ -1,0 +1,487 @@
+Godot 4.5.1: 28/28 headless tests PASS; GUI grounded/full map, F11, commands and play cycle PASS
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Context action menu: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Explicit attack command: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Battle presentation tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Casualties, friendly passage and ZOC: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Cursor and inspection: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[ENEMY TURN 1] enemy1 목표=player 목적지=(11, 2) 총 경로 비용=13
+
+[ENEMY TURN 1] enemy2 목표=ally2 목적지=(9, 6) 총 경로 비용=13
+
+[ENEMY TURN 1] enemy3 목표=ally2 목적지=(10, 6) 총 경로 비용=14
+
+[ENEMY TURN 1] enemy4 목표=ally4 목적지=(8, 10) 총 경로 비용=14
+
+[ENEMY TURN 2] enemy1 목표=player 목적지=(7, 2) 총 경로 비용=9
+
+[ENEMY TURN 2] enemy2 목표=ally2 목적지=(5, 6) 총 경로 비용=9
+
+[ENEMY TURN 2] enemy3 목표=ally2 목적지=(6, 6) 총 경로 비용=10
+
+[ENEMY TURN 2] enemy4 목표=ally4 목적지=(4, 11) 총 경로 비용=10
+
+Default battlefield turns: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Engagement tests: PASS (single six-phase exchange, persistent HP)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Environment artwork: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Extended sprites: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Faction display and move undo: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Formation tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[Sprite fallback] No reviewed profile: yamato
+
+Formation sprites and scythe run: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+Grounded battle and full map: PASS (0 failures)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Guy team sprites: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[Sprite fallback] No reviewed profile: yamato
+
+Interaction tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Jounin sprites: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Menu geometry and range consistency: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[PHASE 1 - Gunpowder] 공격측 p0 → 방어측 enemy 공격 / 피해 30 / HP 9970/10000
+
+[PHASE 2 - Magic] 공격측 p1 → 방어측 enemy 공격 / 피해 30 / HP 9940/10000
+
+[PHASE 3 - Ranged] 공격측 p2 → 방어측 enemy 공격 / 피해 30 / HP 9910/10000
+
+[PHASE 4 - LightMelee] 공격측 p3 → 방어측 enemy 공격 / 피해 30 / HP 9880/10000
+
+[PHASE 5 - HeavyMelee] 공격측 p4 → 방어측 enemy 공격 / 피해 30 / HP 9850/10000
+
+[PHASE 5 - HeavyMelee] 방어측 enemy → 공격측 p0 공격 / 피해 0 / HP 100/100
+
+[PHASE 6 - Healer] 공격측 p5 → 공격측 p4 치료 / 회복 50 / HP 100/100
+
+Phase tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[Sprite fallback] No reviewed profile: yamato
+
+[공격측 · PHASE 1 - Gunpowder]
+
+[공격측 · PHASE 2 - Magic]
+
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 발톱병 공격 / 피해 18 / HP 32/50
+
+[공격측 · PHASE 3 - Ranged]
+
+[공격측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 28/50
+
+[공격측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 발톱병 공격 / 피해 18 / HP 14/50
+
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 발톱병 공격 / 피해 22 / HP 0/50
+
+[방어측 · PHASE 1 - Gunpowder]
+
+[방어측 · PHASE 2 - Magic]
+
+[방어측 · PHASE 3 - Ranged]
+
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 쵸지 공격 / 피해 14 / HP 51/65
+
+[방어측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 66/80
+
+[방어측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 방어측 소리 중갑병 → 공격측 카카시 공격 / 피해 14 / HP 52/80
+
+[공격측 · PHASE 6 - Healer]
+
+[방어측 · PHASE 6 - Healer]
+
+[공격측 · PHASE 1 - Gunpowder]
+
+[공격측 · PHASE 2 - Magic]
+
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 소리 중갑병 공격 / 피해 18 / HP 10/50
+
+[공격측 · PHASE 3 - Ranged]
+
+[공격측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 0/50
+
+[공격측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 다트병 공격 / 피해 18 / HP 32/50
+
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 다트병 공격 / 피해 22 / HP 10/50
+
+[방어측 · PHASE 1 - Gunpowder]
+
+[방어측 · PHASE 2 - Magic]
+
+[방어측 · PHASE 3 - Ranged]
+
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 쵸지 공격 / 피해 14 / HP 37/65
+
+[방어측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 38/80
+
+[방어측 · PHASE 5 - HeavyMelee]
+
+[공격측 · PHASE 6 - Healer]
+
+[방어측 · PHASE 6 - Healer]
+
+[공격측 · PHASE 1 - Gunpowder]
+
+[공격측 · PHASE 2 - Magic]
+
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 다트병 공격 / 피해 18 / HP 0/50
+
+[공격측 · PHASE 3 - Ranged]
+
+[공격측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 봉술병 공격 / 피해 22 / HP 28/50
+
+[공격측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 봉술병 공격 / 피해 18 / HP 10/50
+
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 봉술병 공격 / 피해 22 / HP 0/50
+
+[공격측 · PHASE 1 - Gunpowder]
+
+[공격측 · PHASE 2 - Magic]
+
+[공격측 · PHASE 3 - Ranged]
+
+[공격측 · PHASE 4 - LightMelee]
+
+[공격측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 공격측 아스마 → 방어측 봉술병 공격 / 피해 22 / HP 28/50
+
+[방어측 · PHASE 1 - Gunpowder]
+
+[방어측 · PHASE 2 - Magic]
+
+[방어측 · PHASE 3 - Ranged]
+
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 아스마 공격 / 피해 14 / HP 0/80
+
+Play cycle: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Sprite background transparency: PASS (507 frames, 0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Sprite-only deployment: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Sprite flow and alignment: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[Sprite fallback] No reviewed profile: unmapped_test
+
+Sprite scenario A: 10 events
+
+Sprite scenario B: 12 events
+
+[공격측 · PHASE 1 - Gunpowder]
+
+[공격측 · PHASE 2 - Magic]
+
+[PHASE 2 - Magic] 공격측 사스케 → 방어측 다트병 공격 / 피해 14 / HP 36/50
+
+[공격측 · PHASE 3 - Ranged]
+
+[공격측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 28/50
+
+[PHASE 4 - LightMelee] 공격측 나루토 → 방어측 발톱병 공격 / 피해 14 / HP 36/50
+
+[공격측 · PHASE 5 - HeavyMelee]
+
+[방어측 · PHASE 1 - Gunpowder]
+
+[방어측 · PHASE 2 - Magic]
+
+[방어측 · PHASE 3 - Ranged]
+
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 카카시 공격 / 피해 14 / HP 66/80
+
+[방어측 · PHASE 4 - LightMelee]
+
+[PHASE 4 - LightMelee] 방어측 발톱병 → 공격측 나루토 공격 / 피해 14 / HP 36/50
+
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 52/80
+
+[PHASE 4 - LightMelee] 방어측 낫병 → 공격측 나루토 공격 / 피해 14 / HP 22/50
+
+[방어측 · PHASE 5 - HeavyMelee]
+
+[PHASE 5 - HeavyMelee] 방어측 소리 중갑병 → 공격측 카카시 공격 / 피해 14 / HP 38/80
+
+[PHASE 5 - HeavyMelee] 방어측 철구병 → 공격측 카카시 공격 / 피해 14 / HP 24/80
+
+[공격측 · PHASE 6 - Healer]
+
+[PHASE 6 - Healer] 공격측 사쿠라 → 공격측 카카시 치료 / 회복 20 / HP 44/80
+
+[방어측 · PHASE 6 - Healer]
+
+Sprite integration: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[ENEMY TURN 1] enemy1 목표=player 목적지=(3, 2) 총 경로 비용=1
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[공격측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 공격측 다트병 → 방어측 카카시 공격 / 피해 14 / HP 0/80
+[ENEMY TURN 1] enemy2 목표=ally2 목적지=(1, 6) 총 경로 비용=1
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[공격측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 공격측 다트병 → 방어측 아스마 공격 / 피해 14 / HP 66/80
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 봉술병 → 방어측 아스마 공격 / 피해 14 / HP 52/80
+[PHASE 4 - LightMelee] 공격측 낫병 → 방어측 쵸지 공격 / 피해 14 / HP 51/65
+[공격측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 공격측 철구병 → 방어측 아스마 공격 / 피해 14 / HP 38/80
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 방어측 시카마루 → 공격측 철구병 공격 / 피해 18 / HP 32/50
+[방어측 · PHASE 3 - Ranged]
+[방어측 · PHASE 4 - LightMelee]
+[방어측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 방어측 아스마 → 공격측 봉술병 공격 / 피해 22 / HP 28/50
+[PHASE 5 - HeavyMelee] 방어측 쵸지 → 공격측 낫병 공격 / 피해 18 / HP 32/50
+[공격측 · PHASE 6 - Healer]
+[방어측 · PHASE 6 - Healer]
+[PHASE 6 - Healer] 방어측 이노 → 방어측 아스마 치료 / 회복 20 / HP 58/80
+[ENEMY TURN 1] enemy3 목표=ally2 목적지=(10, 6) 총 경로 비용=15
+Tactical turn cycle: PASS (0 failures; 2 enemy battles)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Tactics tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+Terrain and AI tests: PASS (0 failures)
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+
+
+[Sprite fallback] No reviewed profile: yamato
+
+UI event and 15 hit-target tests: PASS
+
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+Explicit unit commands: PASS (0 failures)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Ti
+
+Grounded battle and full map: PASS (0 failures)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Ti
+
+Explicit unit commands: PASS (0 failures)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Ti
+
+[Sprite fallback] No reviewed profile: yamato
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 발톱병 공격 / 피해 18 / HP 32/50
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 28/50
+[공격측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 발톱병 공격 / 피해 18 / HP 14/50
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 발톱병 공격 / 피해 22 / HP 0/50
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[방어측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 쵸지 공격 / 피해 14 / HP 51/65
+[방어측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 66/80
+[방어측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 방어측 소리 중갑병 → 공격측 카카시 공격 / 피해 14 / HP 52/80
+[공격측 · PHASE 6 - Healer]
+[방어측 · PHASE 6 - Healer]
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 소리 중갑병 공격 / 피해 18 / HP 10/50
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 0/50
+[공격측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 다트병 공격 / 피해 18 / HP 32/50
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 다트병 공격 / 피해 22 / HP 10/50
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[방어측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 쵸지 공격 / 피해 14 / HP 37/65
+[방어측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 38/80
+[방어측 · PHASE 5 - HeavyMelee]
+[공격측 · PHASE 6 - Healer]
+[방어측 · PHASE 6 - Healer]
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 공격측 시카마루 → 방어측 다트병 공격 / 피해 18 / HP 0/50
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 봉술병 공격 / 피해 22 / HP 28/50
+[공격측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 공격측 쵸지 → 방어측 봉술병 공격 / 피해 18 / HP 10/50
+[PHASE 5 - HeavyMelee] 공격측 야마토 → 방어측 봉술병 공격 / 피해 22 / HP 0/50
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[공격측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 공격측 아스마 → 방어측 봉술병 공격 / 피해 22 / HP 28/50
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[방어측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 아스마 공격 / 피해 14 / HP 0/80
+Play cycle: PASS (0 failures)

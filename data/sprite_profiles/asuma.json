@@ -1,0 +1,659 @@
+{
+  "id": "asuma",
+  "source": "메인캐/사루토비 아스마/asuma.png",
+  "source_sha256": "7347174a3180a75e459944420a471f08945dab6774d8b82f1838a955bdbb0024",
+  "default_facing": "right",
+  "scale": 1.6271,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 5,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/asuma/idle_00.png",
+          "source_rect": [
+            0,
+            315,
+            56,
+            75
+          ],
+          "source_foot": [
+            32,
+            66
+          ],
+          "bbox": [
+            15,
+            7,
+            52,
+            66
+          ],
+          "source_body_core": [
+            31.736028991035667,
+            38.159069235170705
+          ],
+          "registered_body_core": [
+            119.73602899103567,
+            72.1590692351707
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/idle_01.png",
+          "source_rect": [
+            56,
+            315,
+            46,
+            75
+          ],
+          "source_foot": [
+            22,
+            66
+          ],
+          "bbox": [
+            5,
+            7,
+            42,
+            66
+          ],
+          "source_body_core": [
+            21.736028991035667,
+            38.159069235170705
+          ],
+          "registered_body_core": [
+            119.73602899103567,
+            72.1590692351707
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/idle_02.png",
+          "source_rect": [
+            102,
+            315,
+            47,
+            75
+          ],
+          "source_foot": [
+            22,
+            66
+          ],
+          "bbox": [
+            5,
+            7,
+            42,
+            66
+          ],
+          "source_body_core": [
+            21.736028991035667,
+            38.159069235170705
+          ],
+          "registered_body_core": [
+            119.73602899103567,
+            72.1590692351707
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/idle_03.png",
+          "source_rect": [
+            149,
+            315,
+            47,
+            75
+          ],
+          "source_foot": [
+            21,
+            66
+          ],
+          "bbox": [
+            4,
+            7,
+            41,
+            66
+          ],
+          "source_body_core": [
+            20.736028991035667,
+            38.159069235170705
+          ],
+          "registered_body_core": [
+            119.73602899103567,
+            72.1590692351707
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/asuma/move_00.png",
+          "source_rect": [
+            250,
+            440,
+            70,
+            70
+          ],
+          "source_foot": [
+            39,
+            62
+          ],
+          "bbox": [
+            10,
+            7,
+            65,
+            61
+          ],
+          "source_body_core": [
+            39.06585540443808,
+            35.71152469577667
+          ],
+          "registered_body_core": [
+            120.06585540443808,
+            73.71152469577666
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/move_01.png",
+          "source_rect": [
+            320,
+            440,
+            55,
+            70
+          ],
+          "source_foot": [
+            23,
+            61
+          ],
+          "bbox": [
+            7,
+            7,
+            49,
+            61
+          ],
+          "source_body_core": [
+            22.502901353965182,
+            35.01934235976789
+          ],
+          "registered_body_core": [
+            119.50290135396519,
+            74.01934235976789
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/move_02.png",
+          "source_rect": [
+            375,
+            440,
+            56,
+            70
+          ],
+          "source_foot": [
+            27,
+            61
+          ],
+          "bbox": [
+            4,
+            6,
+            53,
+            61
+          ],
+          "source_body_core": [
+            26.846344305272357,
+            34.50116516166618
+          ],
+          "registered_body_core": [
+            119.84634430527235,
+            73.50116516166618
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/move_03.png",
+          "source_rect": [
+            431,
+            440,
+            64,
+            70
+          ],
+          "source_foot": [
+            31,
+            62
+          ],
+          "bbox": [
+            2,
+            8,
+            56,
+            61
+          ],
+          "source_body_core": [
+            30.656016835660992,
+            36.1750526114406
+          ],
+          "registered_body_core": [
+            119.65601683566099,
+            74.1750526114406
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/move_04.png",
+          "source_rect": [
+            495,
+            440,
+            60,
+            70
+          ],
+          "source_foot": [
+            24,
+            59
+          ],
+          "bbox": [
+            9,
+            6,
+            50,
+            59
+          ],
+          "source_body_core": [
+            24.168799009492364,
+            33.42179116797359
+          ],
+          "registered_body_core": [
+            120.16879900949236,
+            74.4217911679736
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_00.png",
+          "source_rect": [
+            0,
+            684,
+            78,
+            76
+          ],
+          "source_foot": [
+            38,
+            65
+          ],
+          "bbox": [
+            17,
+            12,
+            61,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_01.png",
+          "source_rect": [
+            78,
+            684,
+            80,
+            76
+          ],
+          "source_foot": [
+            40,
+            65
+          ],
+          "bbox": [
+            20,
+            10,
+            62,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_02.png",
+          "source_rect": [
+            158,
+            684,
+            88,
+            76
+          ],
+          "source_foot": [
+            40,
+            65
+          ],
+          "bbox": [
+            19,
+            12,
+            78,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_03.png",
+          "source_rect": [
+            246,
+            684,
+            75,
+            76
+          ],
+          "source_foot": [
+            32,
+            65
+          ],
+          "bbox": [
+            12,
+            10,
+            59,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_04.png",
+          "source_rect": [
+            321,
+            684,
+            80,
+            76
+          ],
+          "source_foot": [
+            38,
+            64
+          ],
+          "bbox": [
+            15,
+            10,
+            62,
+            64
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_05.png",
+          "source_rect": [
+            401,
+            684,
+            81,
+            76
+          ],
+          "source_foot": [
+            38,
+            64
+          ],
+          "bbox": [
+            16,
+            6,
+            67,
+            64
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_06.png",
+          "source_rect": [
+            482,
+            684,
+            82,
+            76
+          ],
+          "source_foot": [
+            33,
+            64
+          ],
+          "bbox": [
+            13,
+            8,
+            73,
+            64
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_07.png",
+          "source_rect": [
+            564,
+            684,
+            78,
+            76
+          ],
+          "source_foot": [
+            28,
+            63
+          ],
+          "bbox": [
+            8,
+            6,
+            68,
+            63
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/attack_08.png",
+          "source_rect": [
+            642,
+            684,
+            76,
+            76
+          ],
+          "source_foot": [
+            30,
+            63
+          ],
+          "bbox": [
+            10,
+            5,
+            61,
+            63
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/asuma/hit_00.png",
+          "source_rect": [
+            0,
+            568,
+            58,
+            72
+          ],
+          "source_foot": [
+            27,
+            64
+          ],
+          "bbox": [
+            10,
+            4,
+            47,
+            64
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/hit_01.png",
+          "source_rect": [
+            58,
+            568,
+            79,
+            72
+          ],
+          "source_foot": [
+            59,
+            55
+          ],
+          "bbox": [
+            14,
+            10,
+            72,
+            55
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/asuma/ko_00.png",
+          "source_rect": [
+            58,
+            568,
+            80,
+            72
+          ],
+          "source_foot": [
+            59,
+            55
+          ],
+          "bbox": [
+            14,
+            10,
+            72,
+            55
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/ko_01.png",
+          "source_rect": [
+            138,
+            568,
+            83,
+            72
+          ],
+          "source_foot": [
+            44,
+            67
+          ],
+          "bbox": [
+            6,
+            35,
+            76,
+            67
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/asuma/ko_02.png",
+          "source_rect": [
+            221,
+            568,
+            84,
+            72
+          ],
+          "source_foot": [
+            45,
+            67
+          ],
+          "bbox": [
+            5,
+            38,
+            74,
+            67
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Original basic Y Combo; one battle impact despite the multi-pose animation."
+  ],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

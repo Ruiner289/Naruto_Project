@@ -1,0 +1,1091 @@
+{
+  "id": "generic_flail",
+  "source": "범용캐/철구닌자/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Enemies - Flail Ninja.png",
+  "source_sha256": "2f252e9833f12bf0e246edc5e8a9a3d18446367a449070c27d322cea9d78867e",
+  "default_facing": "left",
+  "scale": 1.5484,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 7,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_00.png",
+          "source_rect": [
+            0,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            12,
+            63
+          ],
+          "bbox": [
+            0,
+            1,
+            34,
+            63
+          ],
+          "source_body_core": [
+            12.32922645040549,
+            34.59092326887087
+          ],
+          "registered_body_core": [
+            120.32922645040549,
+            71.59092326887087
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_01.png",
+          "source_rect": [
+            42,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            12,
+            62
+          ],
+          "bbox": [
+            1,
+            2,
+            34,
+            63
+          ],
+          "source_body_core": [
+            12.268752741628893,
+            34.00175464249159
+          ],
+          "registered_body_core": [
+            120.26875274162889,
+            72.00175464249159
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_02.png",
+          "source_rect": [
+            84,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            63
+          ],
+          "bbox": [
+            1,
+            3,
+            34,
+            63
+          ],
+          "source_body_core": [
+            12.583449558344956,
+            35.00092980009298
+          ],
+          "registered_body_core": [
+            119.58344955834495,
+            72.00092980009299
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_03.png",
+          "source_rect": [
+            126,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            63
+          ],
+          "bbox": [
+            1,
+            4,
+            34,
+            63
+          ],
+          "source_body_core": [
+            12.959103353867214,
+            34.95328542094456
+          ],
+          "registered_body_core": [
+            119.95910335386722,
+            71.95328542094455
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_04.png",
+          "source_rect": [
+            168,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            13,
+            63
+          ],
+          "bbox": [
+            1,
+            5,
+            33,
+            63
+          ],
+          "source_body_core": [
+            12.522881215925986,
+            35.463571782587145
+          ],
+          "registered_body_core": [
+            119.52288121592599,
+            72.46357178258714
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/idle_05.png",
+          "source_rect": [
+            210,
+            0,
+            42,
+            72
+          ],
+          "source_foot": [
+            12,
+            63
+          ],
+          "bbox": [
+            1,
+            3,
+            34,
+            63
+          ],
+          "source_body_core": [
+            12.325092524056254,
+            34.977054034048855
+          ],
+          "registered_body_core": [
+            120.32509252405626,
+            71.97705403404885
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          112,
+          248
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_00.png",
+          "source_rect": [
+            0,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            20,
+            62
+          ],
+          "bbox": [
+            6,
+            2,
+            46,
+            62
+          ],
+          "source_body_core": [
+            19.676564010495788,
+            33.8241955531004
+          ],
+          "registered_body_core": [
+            119.67656401049578,
+            71.8241955531004
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_01.png",
+          "source_rect": [
+            74,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            20,
+            62
+          ],
+          "bbox": [
+            6,
+            2,
+            48,
+            62
+          ],
+          "source_body_core": [
+            20.195034519383963,
+            33.57328730748805
+          ],
+          "registered_body_core": [
+            120.19503451938397,
+            71.57328730748804
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_02.png",
+          "source_rect": [
+            148,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            21,
+            61
+          ],
+          "bbox": [
+            6,
+            2,
+            49,
+            62
+          ],
+          "source_body_core": [
+            21.283631871525632,
+            33.150092649783815
+          ],
+          "registered_body_core": [
+            120.28363187152563,
+            72.15009264978382
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_03.png",
+          "source_rect": [
+            222,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            24,
+            60
+          ],
+          "bbox": [
+            6,
+            2,
+            51,
+            62
+          ],
+          "source_body_core": [
+            24.2153416726972,
+            32.3838519590613
+          ],
+          "registered_body_core": [
+            120.2153416726972,
+            72.3838519590613
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_04.png",
+          "source_rect": [
+            296,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            29,
+            61
+          ],
+          "bbox": [
+            7,
+            3,
+            52,
+            62
+          ],
+          "source_body_core": [
+            28.648362588420227,
+            33.29641079381713
+          ],
+          "registered_body_core": [
+            119.64836258842023,
+            72.29641079381713
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_05.png",
+          "source_rect": [
+            370,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            29,
+            62
+          ],
+          "bbox": [
+            7,
+            3,
+            52,
+            62
+          ],
+          "source_body_core": [
+            29.38817397721507,
+            33.71809418384761
+          ],
+          "registered_body_core": [
+            120.38817397721508,
+            71.71809418384761
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_06.png",
+          "source_rect": [
+            444,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            30,
+            62
+          ],
+          "bbox": [
+            7,
+            3,
+            53,
+            62
+          ],
+          "source_body_core": [
+            30.480746280531466,
+            34.31128172487867
+          ],
+          "registered_body_core": [
+            120.48074628053146,
+            72.31128172487867
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_07.png",
+          "source_rect": [
+            518,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            31,
+            63
+          ],
+          "bbox": [
+            7,
+            3,
+            53,
+            62
+          ],
+          "source_body_core": [
+            30.532505910165483,
+            34.572025216706066
+          ],
+          "registered_body_core": [
+            119.53250591016548,
+            71.57202521670607
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_08.png",
+          "source_rect": [
+            592,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            30,
+            63
+          ],
+          "bbox": [
+            7,
+            3,
+            53,
+            62
+          ],
+          "source_body_core": [
+            30.03923991308423,
+            35.294661497166715
+          ],
+          "registered_body_core": [
+            120.03923991308423,
+            72.29466149716671
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_09.png",
+          "source_rect": [
+            666,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            29,
+            64
+          ],
+          "bbox": [
+            7,
+            3,
+            53,
+            62
+          ],
+          "source_body_core": [
+            29.248070509766556,
+            35.867079561696045
+          ],
+          "registered_body_core": [
+            120.24807050976656,
+            71.86707956169604
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_10.png",
+          "source_rect": [
+            740,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            24,
+            63
+          ],
+          "bbox": [
+            6,
+            2,
+            53,
+            62
+          ],
+          "source_body_core": [
+            24.177534954764422,
+            35.333333333333336
+          ],
+          "registered_body_core": [
+            120.17753495476443,
+            72.33333333333334
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_11.png",
+          "source_rect": [
+            814,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            22,
+            63
+          ],
+          "bbox": [
+            6,
+            2,
+            52,
+            62
+          ],
+          "source_body_core": [
+            21.559610705596107,
+            35.15243309002433
+          ],
+          "registered_body_core": [
+            119.5596107055961,
+            72.15243309002433
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/move_12.png",
+          "source_rect": [
+            888,
+            72,
+            74,
+            69
+          ],
+          "source_foot": [
+            21,
+            63
+          ],
+          "bbox": [
+            6,
+            2,
+            50,
+            62
+          ],
+          "source_body_core": [
+            21.20334987593052,
+            35.0363523573201
+          ],
+          "registered_body_core": [
+            120.20334987593051,
+            72.0363523573201
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          112,
+          248
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_00.png",
+          "source_rect": [
+            0,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            22,
+            90,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_01.png",
+          "source_rect": [
+            108,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            24,
+            82,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_02.png",
+          "source_rect": [
+            216,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            26,
+            75,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_03.png",
+          "source_rect": [
+            324,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            26,
+            73,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_04.png",
+          "source_rect": [
+            432,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            26,
+            73,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_05.png",
+          "source_rect": [
+            540,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            31,
+            26,
+            73,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_06.png",
+          "source_rect": [
+            648,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            23,
+            21,
+            73,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_07.png",
+          "source_rect": [
+            756,
+            409,
+            108,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            13,
+            21,
+            73,
+            78
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/attack_08.png",
+          "source_rect": [
+            864,
+            409,
+            106,
+            88
+          ],
+          "source_foot": [
+            66,
+            78
+          ],
+          "bbox": [
+            4,
+            21,
+            73,
+            78
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          112,
+          248
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_flail/hit_00.png",
+          "source_rect": [
+            0,
+            757,
+            50,
+            67
+          ],
+          "source_foot": [
+            22,
+            63
+          ],
+          "bbox": [
+            5,
+            1,
+            45,
+            63
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/hit_01.png",
+          "source_rect": [
+            50,
+            757,
+            48,
+            67
+          ],
+          "source_foot": [
+            22,
+            63
+          ],
+          "bbox": [
+            0,
+            0,
+            43,
+            63
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          112,
+          248
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_00.png",
+          "source_rect": [
+            0,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            33,
+            32
+          ],
+          "bbox": [
+            0,
+            8,
+            68,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_01.png",
+          "source_rect": [
+            74,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            21,
+            31
+          ],
+          "bbox": [
+            0,
+            4,
+            67,
+            31
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_02.png",
+          "source_rect": [
+            148,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            21,
+            28
+          ],
+          "bbox": [
+            0,
+            1,
+            67,
+            28
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_03.png",
+          "source_rect": [
+            222,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            9,
+            30
+          ],
+          "bbox": [
+            0,
+            4,
+            67,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_04.png",
+          "source_rect": [
+            296,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            33,
+            32
+          ],
+          "bbox": [
+            0,
+            8,
+            68,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_05.png",
+          "source_rect": [
+            370,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            19,
+            33
+          ],
+          "bbox": [
+            0,
+            7,
+            67,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_06.png",
+          "source_rect": [
+            444,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            9,
+            33
+          ],
+          "bbox": [
+            0,
+            5,
+            67,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_07.png",
+          "source_rect": [
+            518,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            19,
+            30
+          ],
+          "bbox": [
+            0,
+            4,
+            67,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_08.png",
+          "source_rect": [
+            592,
+            881,
+            74,
+            39
+          ],
+          "source_foot": [
+            33,
+            32
+          ],
+          "bbox": [
+            0,
+            8,
+            68,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_flail/ko_09.png",
+          "source_rect": [
+            666,
+            881,
+            72,
+            39
+          ],
+          "source_foot": [
+            33,
+            32
+          ],
+          "bbox": [
+            0,
+            11,
+            68,
+            32
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          112,
+          248
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Ordinary iron-ball swing only; chain/throw skill not implemented."
+  ],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

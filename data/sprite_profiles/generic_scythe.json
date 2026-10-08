@@ -1,0 +1,538 @@
+{
+  "id": "generic_scythe",
+  "source": "범용캐/큰낫닌자/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Enemies - Scythe Ninja.png",
+  "source_sha256": "3f3094c9b7c6a0c3b507c800b2951d78f217340cdb6a1ccacee2e97bea41dcb0",
+  "default_facing": "left",
+  "scale": 2.0,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 3,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/idle_00.png",
+          "source_rect": [
+            0,
+            0,
+            44,
+            50
+          ],
+          "source_foot": [
+            19,
+            47
+          ],
+          "bbox": [
+            2,
+            0,
+            37,
+            48
+          ],
+          "source_body_core": [
+            18.641694157709907,
+            25.402149622219856
+          ],
+          "registered_body_core": [
+            119.6416941577099,
+            78.40214962221985
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/idle_01.png",
+          "source_rect": [
+            44,
+            0,
+            44,
+            50
+          ],
+          "source_foot": [
+            18,
+            49
+          ],
+          "bbox": [
+            2,
+            1,
+            37,
+            49
+          ],
+          "source_body_core": [
+            18.34886679000925,
+            26.658649398704902
+          ],
+          "registered_body_core": [
+            120.34886679000925,
+            77.65864939870491
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/idle_02.png",
+          "source_rect": [
+            88,
+            0,
+            44,
+            50
+          ],
+          "source_foot": [
+            18,
+            49
+          ],
+          "bbox": [
+            0,
+            2,
+            36,
+            49
+          ],
+          "source_body_core": [
+            17.72058309037901,
+            26.648279883381925
+          ],
+          "registered_body_core": [
+            119.72058309037901,
+            77.64827988338192
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/idle_03.png",
+          "source_rect": [
+            132,
+            0,
+            42,
+            50
+          ],
+          "source_foot": [
+            18,
+            48
+          ],
+          "bbox": [
+            2,
+            1,
+            36,
+            48
+          ],
+          "source_body_core": [
+            17.859317701966884,
+            25.548172019113235
+          ],
+          "registered_body_core": [
+            119.85931770196689,
+            77.54817201911324
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/move_00.png",
+          "source_rect": [
+            0,
+            159,
+            58,
+            57
+          ],
+          "source_foot": [
+            28,
+            54
+          ],
+          "bbox": [
+            5,
+            5,
+            50,
+            54
+          ],
+          "source_body_core": [
+            28.015668943350743,
+            29.95962233828847
+          ],
+          "registered_body_core": [
+            120.01566894335075,
+            75.95962233828847
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/move_01.png",
+          "source_rect": [
+            58,
+            159,
+            56,
+            57
+          ],
+          "source_foot": [
+            28,
+            54
+          ],
+          "bbox": [
+            5,
+            5,
+            50,
+            54
+          ],
+          "source_body_core": [
+            28.0410318911233,
+            30.12634572415194
+          ],
+          "registered_body_core": [
+            120.0410318911233,
+            76.12634572415195
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/attack_00.png",
+          "source_rect": [
+            0,
+            50,
+            58,
+            51
+          ],
+          "source_foot": [
+            39,
+            49
+          ],
+          "bbox": [
+            12,
+            5,
+            56,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/attack_01.png",
+          "source_rect": [
+            58,
+            50,
+            58,
+            51
+          ],
+          "source_foot": [
+            39,
+            49
+          ],
+          "bbox": [
+            8,
+            7,
+            52,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/attack_02.png",
+          "source_rect": [
+            116,
+            50,
+            58,
+            51
+          ],
+          "source_foot": [
+            39,
+            49
+          ],
+          "bbox": [
+            1,
+            10,
+            48,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/attack_03.png",
+          "source_rect": [
+            174,
+            50,
+            58,
+            51
+          ],
+          "source_foot": [
+            39,
+            49
+          ],
+          "bbox": [
+            0,
+            9,
+            53,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/attack_04.png",
+          "source_rect": [
+            232,
+            50,
+            56,
+            51
+          ],
+          "source_foot": [
+            39,
+            49
+          ],
+          "bbox": [
+            11,
+            10,
+            48,
+            49
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/hit_00.png",
+          "source_rect": [
+            0,
+            218,
+            43,
+            56
+          ],
+          "source_foot": [
+            14,
+            51
+          ],
+          "bbox": [
+            1,
+            3,
+            41,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/hit_01.png",
+          "source_rect": [
+            43,
+            218,
+            41,
+            56
+          ],
+          "source_foot": [
+            21,
+            52
+          ],
+          "bbox": [
+            0,
+            0,
+            36,
+            52
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/ko_00.png",
+          "source_rect": [
+            0,
+            317,
+            61,
+            57
+          ],
+          "source_foot": [
+            25,
+            49
+          ],
+          "bbox": [
+            4,
+            3,
+            48,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/ko_01.png",
+          "source_rect": [
+            61,
+            317,
+            61,
+            57
+          ],
+          "source_foot": [
+            36,
+            49
+          ],
+          "bbox": [
+            0,
+            22,
+            56,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/ko_02.png",
+          "source_rect": [
+            122,
+            317,
+            61,
+            57
+          ],
+          "source_foot": [
+            36,
+            45
+          ],
+          "bbox": [
+            0,
+            18,
+            56,
+            45
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/ko_03.png",
+          "source_rect": [
+            183,
+            317,
+            61,
+            57
+          ],
+          "source_foot": [
+            36,
+            52
+          ],
+          "bbox": [
+            0,
+            25,
+            56,
+            52
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_scythe/ko_04.png",
+          "source_rect": [
+            244,
+            317,
+            61,
+            57
+          ],
+          "source_foot": [
+            29,
+            50
+          ],
+          "bbox": [
+            3,
+            29,
+            56,
+            50
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

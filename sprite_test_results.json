@@ -1,0 +1,92 @@
+[
+  {
+    "Test": "test_attack_click.gd",
+    "Exit": 0,
+    "Result": "Attack click priority: PASS (0 failures)"
+  },
+  {
+    "Test": "test_battle_presentation.gd",
+    "Exit": 0,
+    "Result": "Battle presentation tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_casualty_zoc.gd",
+    "Exit": 0,
+    "Result": "Casualties, friendly passage and ZOC: PASS (0 failures)"
+  },
+  {
+    "Test": "test_cursor_inspection.gd",
+    "Exit": 0,
+    "Result": "Cursor and inspection: PASS (0 failures)"
+  },
+  {
+    "Test": "test_default_turns.gd",
+    "Exit": 0,
+    "Result": "Default battlefield turns: PASS (0 failures)"
+  },
+  {
+    "Test": "test_engagement.gd",
+    "Exit": 0,
+    "Result": "Engagement tests: PASS (single six-phase exchange, persistent HP)"
+  },
+  {
+    "Test": "test_extended_sprites.gd",
+    "Exit": 0,
+    "Result": "Extended sprites: PASS (0 failures)"
+  },
+  {
+    "Test": "test_faction_move_undo.gd",
+    "Exit": 0,
+    "Result": "Faction display and move undo: PASS (0 failures)"
+  },
+  {
+    "Test": "test_formation.gd",
+    "Exit": 0,
+    "Result": "Formation tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_interaction.gd",
+    "Exit": 0,
+    "Result": "Interaction tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_phases.gd",
+    "Exit": 0,
+    "Result": "Phase tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_play_cycle.gd",
+    "Exit": 0,
+    "Result": "Play cycle: PASS (0 failures)"
+  },
+  {
+    "Test": "test_sprite_deployment.gd",
+    "Exit": 0,
+    "Result": "Sprite-only deployment: PASS (0 failures)"
+  },
+  {
+    "Test": "test_sprite_integration.gd",
+    "Exit": 0,
+    "Result": "Sprite integration: PASS (0 failures)"
+  },
+  {
+    "Test": "test_tactical_turn.gd",
+    "Exit": 0,
+    "Result": "Tactical turn cycle: PASS (0 failures; 2 enemy battles)"
+  },
+  {
+    "Test": "test_tactics.gd",
+    "Exit": 0,
+    "Result": "Tactics tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_terrain_ai.gd",
+    "Exit": 0,
+    "Result": "Terrain and AI tests: PASS (0 failures)"
+  },
+  {
+    "Test": "test_ui.gd",
+    "Exit": 0,
+    "Result": "UI event and 15 hit-target tests: PASS"
+  }
+]

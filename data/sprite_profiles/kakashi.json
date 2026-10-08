@@ -1,0 +1,608 @@
+{
+  "id": "kakashi",
+  "source": "메인캐/하타케 카카시/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Kakashi Hatake.png",
+  "source_sha256": "3cb6815f7c3137f839acc08f6c98353e338a9f0d7edb71ade596814af97f751a",
+  "default_facing": "right",
+  "scale": 1.8113,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kakashi/idle_00.png",
+          "source_rect": [
+            0,
+            10,
+            61,
+            61
+          ],
+          "source_foot": [
+            27,
+            59
+          ],
+          "bbox": [
+            11,
+            6,
+            57,
+            59
+          ],
+          "source_body_core": [
+            27.148643006263047,
+            35.111482254697286
+          ],
+          "registered_body_core": [
+            120.14864300626304,
+            76.11148225469728
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/idle_01.png",
+          "source_rect": [
+            61,
+            10,
+            60,
+            61
+          ],
+          "source_foot": [
+            25,
+            59
+          ],
+          "bbox": [
+            9,
+            7,
+            56,
+            59
+          ],
+          "source_body_core": [
+            25.03962536023055,
+            34.76585014409222
+          ],
+          "registered_body_core": [
+            120.03962536023054,
+            75.76585014409221
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/idle_02.png",
+          "source_rect": [
+            121,
+            10,
+            60,
+            61
+          ],
+          "source_foot": [
+            25,
+            60
+          ],
+          "bbox": [
+            9,
+            8,
+            56,
+            59
+          ],
+          "source_body_core": [
+            25.21812778603269,
+            35.56419019316493
+          ],
+          "registered_body_core": [
+            120.21812778603268,
+            75.56419019316493
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/idle_03.png",
+          "source_rect": [
+            181,
+            10,
+            59,
+            61
+          ],
+          "source_foot": [
+            26,
+            60
+          ],
+          "bbox": [
+            10,
+            8,
+            56,
+            59
+          ],
+          "source_body_core": [
+            26.005795053003535,
+            35.895406360424026
+          ],
+          "registered_body_core": [
+            120.00579505300354,
+            75.89540636042403
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_00.png",
+          "source_rect": [
+            0,
+            169,
+            78,
+            68
+          ],
+          "source_foot": [
+            30,
+            66
+          ],
+          "bbox": [
+            5,
+            8,
+            61,
+            64
+          ],
+          "source_body_core": [
+            30.286036036036037,
+            40.002252252252255
+          ],
+          "registered_body_core": [
+            120.28603603603604,
+            74.00225225225225
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_01.png",
+          "source_rect": [
+            78,
+            169,
+            77,
+            68
+          ],
+          "source_foot": [
+            35,
+            61
+          ],
+          "bbox": [
+            17,
+            7,
+            59,
+            63
+          ],
+          "source_body_core": [
+            34.99073583906829,
+            35.02752779248279
+          ],
+          "registered_body_core": [
+            119.9907358390683,
+            74.0275277924828
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_02.png",
+          "source_rect": [
+            155,
+            169,
+            77,
+            68
+          ],
+          "source_foot": [
+            34,
+            63
+          ],
+          "bbox": [
+            9,
+            7,
+            59,
+            63
+          ],
+          "source_body_core": [
+            34.40502125398512,
+            36.54476620616366
+          ],
+          "registered_body_core": [
+            120.40502125398513,
+            73.54476620616366
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_03.png",
+          "source_rect": [
+            232,
+            169,
+            77,
+            68
+          ],
+          "source_foot": [
+            31,
+            66
+          ],
+          "bbox": [
+            5,
+            8,
+            60,
+            65
+          ],
+          "source_body_core": [
+            30.837881653607134,
+            39.71115914617671
+          ],
+          "registered_body_core": [
+            119.83788165360713,
+            73.71115914617671
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_04.png",
+          "source_rect": [
+            309,
+            169,
+            77,
+            68
+          ],
+          "source_foot": [
+            32,
+            65
+          ],
+          "bbox": [
+            13,
+            7,
+            60,
+            66
+          ],
+          "source_body_core": [
+            32.04817725106273,
+            38.86770578384645
+          ],
+          "registered_body_core": [
+            120.04817725106273,
+            73.86770578384645
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/move_05.png",
+          "source_rect": [
+            386,
+            169,
+            76,
+            68
+          ],
+          "source_foot": [
+            36,
+            64
+          ],
+          "bbox": [
+            9,
+            6,
+            60,
+            64
+          ],
+          "source_body_core": [
+            35.73884324150153,
+            38.29418398582246
+          ],
+          "registered_body_core": [
+            119.73884324150153,
+            74.29418398582246
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kakashi/attack_00.png",
+          "source_rect": [
+            0,
+            863,
+            69,
+            69
+          ],
+          "source_foot": [
+            30,
+            67
+          ],
+          "bbox": [
+            9,
+            14,
+            53,
+            67
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/attack_01.png",
+          "source_rect": [
+            69,
+            863,
+            68,
+            69
+          ],
+          "source_foot": [
+            30,
+            67
+          ],
+          "bbox": [
+            10,
+            14,
+            58,
+            67
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/attack_02.png",
+          "source_rect": [
+            137,
+            863,
+            68,
+            69
+          ],
+          "source_foot": [
+            30,
+            67
+          ],
+          "bbox": [
+            10,
+            15,
+            61,
+            67
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/attack_03.png",
+          "source_rect": [
+            205,
+            863,
+            67,
+            69
+          ],
+          "source_foot": [
+            30,
+            67
+          ],
+          "bbox": [
+            10,
+            13,
+            55,
+            67
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kakashi/hit_00.png",
+          "source_rect": [
+            0,
+            1262,
+            62,
+            61
+          ],
+          "source_foot": [
+            31,
+            59
+          ],
+          "bbox": [
+            3,
+            7,
+            54,
+            59
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/hit_01.png",
+          "source_rect": [
+            62,
+            1262,
+            50,
+            61
+          ],
+          "source_foot": [
+            29,
+            59
+          ],
+          "bbox": [
+            6,
+            11,
+            50,
+            59
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kakashi/ko_00.png",
+          "source_rect": [
+            252,
+            1333,
+            84,
+            51
+          ],
+          "source_foot": [
+            51,
+            32
+          ],
+          "bbox": [
+            10,
+            5,
+            80,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/ko_01.png",
+          "source_rect": [
+            168,
+            1333,
+            84,
+            51
+          ],
+          "source_foot": [
+            51,
+            40
+          ],
+          "bbox": [
+            10,
+            13,
+            80,
+            40
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/ko_02.png",
+          "source_rect": [
+            84,
+            1333,
+            84,
+            51
+          ],
+          "source_foot": [
+            51,
+            46
+          ],
+          "bbox": [
+            10,
+            19,
+            80,
+            46
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kakashi/ko_03.png",
+          "source_rect": [
+            0,
+            1333,
+            84,
+            51
+          ],
+          "source_foot": [
+            35,
+            49
+          ],
+          "bbox": [
+            9,
+            25,
+            78,
+            49
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

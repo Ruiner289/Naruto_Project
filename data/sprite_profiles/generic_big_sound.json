@@ -1,0 +1,609 @@
+{
+  "id": "generic_big_sound",
+  "source": "범용캐/거구체형 소리닌자/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Enemies - Big Sound Ninja.png",
+  "source_sha256": "894fa434abcad69c1c8f01fe1a297a451567a6697581eebd44b1db55fdc8cfb9",
+  "default_facing": "left",
+  "scale": 1.5738,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 3,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/idle_00.png",
+          "source_rect": [
+            0,
+            0,
+            66,
+            65
+          ],
+          "source_foot": [
+            32,
+            63
+          ],
+          "bbox": [
+            1,
+            3,
+            62,
+            64
+          ],
+          "source_body_core": [
+            32.200743835805135,
+            34.17923228798384
+          ],
+          "registered_body_core": [
+            120.20074383580513,
+            71.17923228798384
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/idle_01.png",
+          "source_rect": [
+            66,
+            0,
+            66,
+            65
+          ],
+          "source_foot": [
+            33,
+            64
+          ],
+          "bbox": [
+            1,
+            4,
+            62,
+            64
+          ],
+          "source_body_core": [
+            32.57458786587417,
+            35.224761691151734
+          ],
+          "registered_body_core": [
+            119.57458786587418,
+            71.22476169115174
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/idle_02.png",
+          "source_rect": [
+            132,
+            0,
+            64,
+            65
+          ],
+          "source_foot": [
+            33,
+            64
+          ],
+          "bbox": [
+            2,
+            5,
+            63,
+            64
+          ],
+          "source_body_core": [
+            33.3232251633625,
+            35.252275999556986
+          ],
+          "registered_body_core": [
+            120.32322516336251,
+            71.25227599955699
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/move_00.png",
+          "source_rect": [
+            0,
+            132,
+            68,
+            65
+          ],
+          "source_foot": [
+            33,
+            63
+          ],
+          "bbox": [
+            10,
+            3,
+            59,
+            64
+          ],
+          "source_body_core": [
+            32.56748466257669,
+            35.20411208754767
+          ],
+          "registered_body_core": [
+            119.56748466257669,
+            72.20411208754767
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/move_01.png",
+          "source_rect": [
+            68,
+            132,
+            68,
+            65
+          ],
+          "source_foot": [
+            33,
+            62
+          ],
+          "bbox": [
+            8,
+            4,
+            61,
+            63
+          ],
+          "source_body_core": [
+            33.37133275007291,
+            34.269466316710414
+          ],
+          "registered_body_core": [
+            120.37133275007291,
+            72.2694663167104
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/move_02.png",
+          "source_rect": [
+            136,
+            132,
+            68,
+            65
+          ],
+          "source_foot": [
+            28,
+            64
+          ],
+          "bbox": [
+            0,
+            5,
+            64,
+            64
+          ],
+          "source_body_core": [
+            27.918975765889346,
+            35.59503124523701
+          ],
+          "registered_body_core": [
+            119.91897576588934,
+            71.59503124523701
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/move_03.png",
+          "source_rect": [
+            204,
+            132,
+            68,
+            65
+          ],
+          "source_foot": [
+            33,
+            64
+          ],
+          "bbox": [
+            4,
+            3,
+            64,
+            64
+          ],
+          "source_body_core": [
+            32.78896292004635,
+            35.53276361529548
+          ],
+          "registered_body_core": [
+            119.78896292004634,
+            71.53276361529548
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/move_04.png",
+          "source_rect": [
+            272,
+            132,
+            64,
+            65
+          ],
+          "source_foot": [
+            34,
+            64
+          ],
+          "bbox": [
+            6,
+            5,
+            62,
+            64
+          ],
+          "source_body_core": [
+            33.63458016003085,
+            35.92627494456763
+          ],
+          "registered_body_core": [
+            119.63458016003085,
+            71.92627494456764
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/attack_00.png",
+          "source_rect": [
+            0,
+            65,
+            121,
+            66
+          ],
+          "source_foot": [
+            92,
+            65
+          ],
+          "bbox": [
+            50,
+            6,
+            103,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/attack_01.png",
+          "source_rect": [
+            121,
+            65,
+            121,
+            66
+          ],
+          "source_foot": [
+            92,
+            65
+          ],
+          "bbox": [
+            50,
+            6,
+            105,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/attack_02.png",
+          "source_rect": [
+            242,
+            65,
+            121,
+            66
+          ],
+          "source_foot": [
+            92,
+            65
+          ],
+          "bbox": [
+            52,
+            3,
+            117,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/attack_03.png",
+          "source_rect": [
+            363,
+            65,
+            121,
+            66
+          ],
+          "source_foot": [
+            73,
+            64
+          ],
+          "bbox": [
+            7,
+            5,
+            99,
+            64
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/attack_04.png",
+          "source_rect": [
+            484,
+            65,
+            121,
+            66
+          ],
+          "source_foot": [
+            73,
+            64
+          ],
+          "bbox": [
+            14,
+            7,
+            99,
+            64
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/hit_00.png",
+          "source_rect": [
+            0,
+            198,
+            74,
+            72
+          ],
+          "source_foot": [
+            32,
+            65
+          ],
+          "bbox": [
+            7,
+            8,
+            68,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/hit_01.png",
+          "source_rect": [
+            74,
+            198,
+            72,
+            72
+          ],
+          "source_foot": [
+            32,
+            65
+          ],
+          "bbox": [
+            2,
+            6,
+            70,
+            65
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_00.png",
+          "source_rect": [
+            0,
+            339,
+            74,
+            65
+          ],
+          "source_foot": [
+            42,
+            60
+          ],
+          "bbox": [
+            13,
+            13,
+            71,
+            60
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_01.png",
+          "source_rect": [
+            74,
+            339,
+            74,
+            65
+          ],
+          "source_foot": [
+            42,
+            60
+          ],
+          "bbox": [
+            13,
+            13,
+            71,
+            60
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_02.png",
+          "source_rect": [
+            148,
+            339,
+            74,
+            65
+          ],
+          "source_foot": [
+            45,
+            52
+          ],
+          "bbox": [
+            14,
+            1,
+            69,
+            52
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_03.png",
+          "source_rect": [
+            222,
+            339,
+            74,
+            65
+          ],
+          "source_foot": [
+            45,
+            55
+          ],
+          "bbox": [
+            14,
+            4,
+            69,
+            55
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_04.png",
+          "source_rect": [
+            296,
+            339,
+            74,
+            65
+          ],
+          "source_foot": [
+            45,
+            59
+          ],
+          "bbox": [
+            14,
+            8,
+            69,
+            59
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_big_sound/ko_05.png",
+          "source_rect": [
+            370,
+            339,
+            72,
+            65
+          ],
+          "source_foot": [
+            38,
+            60
+          ],
+          "bbox": [
+            5,
+            24,
+            71,
+            60
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

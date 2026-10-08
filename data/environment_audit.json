@@ -1,0 +1,863 @@
+{
+  "repository": "https://github.com/Ruiner289/Naruto_Project_Sprite",
+  "commit": "7066534",
+  "sources": [
+    {
+      "file": "Boss Stage.png",
+      "sha256": "52e5e34670a855ff5d28c42389dafbf3a6bd6a7a2aa4fb8e4024eb71ba01aa3e"
+    },
+    {
+      "file": "Bridge.png",
+      "sha256": "450a87d30cfed2d1c8c1ce257f556acead0b73e1d8796bee19d25b2bb423dfb3"
+    },
+    {
+      "file": "Forest of Death 1.png",
+      "sha256": "adc03f3dbb3d1ea14dee6494a7db8a9da55cbfdf437627b9b063deeb47493798"
+    },
+    {
+      "file": "Forest.png",
+      "sha256": "4c14dc4ba00771b1e1888aeb3f2f8d499a32b79dd3950eccf667d8de6b061b01"
+    },
+    {
+      "file": "Hills 2.png",
+      "sha256": "a7e588bac1c805d09ab68ae44029be55ce89d82b5737d8941bef459df81c428a"
+    },
+    {
+      "file": "Konoha Background.png",
+      "sha256": "4dff463c5d3bb423c6e68c14ca6d449dd04b568a689c1d1e9e6c3a5f3e3eb063"
+    },
+    {
+      "file": "Konoha Objects.png",
+      "sha256": "4560f910ab4873926f34cbd4821b25aed0d1ac00aed60e60d8e24f0f982447de"
+    },
+    {
+      "file": "Tilesets.png",
+      "sha256": "14129153502fdf3d374c38f174fef4e2e2961e7270231b5be2ba4f140a3cdb3a"
+    }
+  ],
+  "assets": [
+    {
+      "id": "tree_oak",
+      "source": "Tilesets.png",
+      "rect": [
+        121,
+        281,
+        194,
+        409
+      ],
+      "size": [
+        73,
+        128
+      ],
+      "sha256": "e93c0a0efb5f61c8b9d8439e37a0962c2a0377afe965f8bd0fbb57805dadccf4",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [
+        [
+          0,
+          74,
+          18,
+          128
+        ]
+      ],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "tree_pine",
+      "source": "Tilesets.png",
+      "rect": [
+        195,
+        281,
+        266,
+        410
+      ],
+      "size": [
+        71,
+        129
+      ],
+      "sha256": "f361a4494167d69a1824176eb8204754b806d235a08d38c184951e5b7ceaf210",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "bush",
+      "source": "Tilesets.png",
+      "rect": [
+        202,
+        414,
+        266,
+        447
+      ],
+      "size": [
+        64,
+        33
+      ],
+      "sha256": "9afa46b5d629fbc4d460ad9dd2a04c313f96e9bad2ebe9318cfaefee5a82dc8b",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "rock",
+      "source": "Tilesets.png",
+      "rect": [
+        78,
+        419,
+        202,
+        473
+      ],
+      "size": [
+        124,
+        54
+      ],
+      "sha256": "72331b90cfee0cb2f3e26be45845286b8b9630986f57e356e4827d4f122d70d2",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "dead_tree",
+      "source": "Tilesets.png",
+      "rect": [
+        10,
+        427,
+        80,
+        535
+      ],
+      "size": [
+        70,
+        108
+      ],
+      "sha256": "30d8938f11381abf845408d8dd3dce61afad1835dec12b268532a9cbd0472376",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "fallen_log",
+      "source": "Tilesets.png",
+      "rect": [
+        57,
+        688,
+        265,
+        740
+      ],
+      "size": [
+        208,
+        52
+      ],
+      "sha256": "66fea30c5e673d87e3c6e4a6efc296e64de6719a3279e0df6ab9ee3ee20f5a26",
+      "key": [
+        0,
+        255,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "village_house",
+      "source": "Konoha Objects.png",
+      "rect": [
+        9,
+        418,
+        345,
+        552
+      ],
+      "size": [
+        336,
+        134
+      ],
+      "sha256": "0ec0c3d6aacb1f1423267c36aa2e4cc69aa50dd4e22c08427fe0b1537aad7f98",
+      "key": [
+        0,
+        128,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "village_shop",
+      "source": "Konoha Objects.png",
+      "rect": [
+        368,
+        418,
+        778,
+        552
+      ],
+      "size": [
+        410,
+        134
+      ],
+      "sha256": "0c60f215ce6c67b78cc5c530f31ef3f63c1ab38eb0edb7bb4dca6198744cd5a6",
+      "key": [
+        0,
+        128,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "outpost",
+      "source": "Konoha Objects.png",
+      "rect": [
+        627,
+        572,
+        858,
+        705
+      ],
+      "size": [
+        231,
+        133
+      ],
+      "sha256": "f2e81a56e2fbd0694d58081a46c3d5afd7f78d9827397dfd8beb6f740712dcf3",
+      "key": [
+        0,
+        128,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "stall",
+      "source": "Konoha Objects.png",
+      "rect": [
+        412,
+        180,
+        500,
+        258
+      ],
+      "size": [
+        88,
+        78
+      ],
+      "sha256": "9dbc9b881be99d23bccd3b8916da895975db754c599a5bf2a94d82cc1b8e5407",
+      "key": [
+        0,
+        128,
+        0
+      ],
+      "excluded_rects": [],
+      "transform": "exact-key transparency; preserve non-key pixels outside reviewed neighbour exclusion"
+    },
+    {
+      "id": "hex_plain_0",
+      "source": "Forest.png",
+      "rect": [
+        16,
+        218,
+        144,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "8e5428ab784ad2be4276b2245eba0f2df91020d114e30becd197d1dcb0025ce9",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_plain_1",
+      "source": "Forest.png",
+      "rect": [
+        16,
+        218,
+        144,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "6d26b1f33fa6605b2606424df91f174a0aa2545d548634a97e986d6a7d2d5e13",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_plain_2",
+      "source": "Forest.png",
+      "rect": [
+        16,
+        218,
+        144,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "be0330de470d6269ba9360d0f491cf3d8c64818f7192dcbb371a02148a2433fe",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_road_0",
+      "source": "Boss Stage.png",
+      "rect": [
+        20,
+        154,
+        148,
+        188
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "cca59a351292351682f265ca9c1fe148a0fe5bb22595d72dfd139a913c75bc4b",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.87,
+        0.86,
+        0.79
+      ]
+    },
+    {
+      "id": "hex_road_1",
+      "source": "Boss Stage.png",
+      "rect": [
+        20,
+        154,
+        148,
+        188
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "57de52a7e85bc73bd14dd640eeeacf089ad01de3a239b5568ac2e71f794338e6",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.87,
+        0.86,
+        0.79
+      ]
+    },
+    {
+      "id": "hex_road_2",
+      "source": "Boss Stage.png",
+      "rect": [
+        20,
+        154,
+        148,
+        188
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "c6e76c8d7feb1dd9debbcc8b03c827976626f9e7cd12131fc988e49d240d4f37",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.87,
+        0.86,
+        0.79
+      ]
+    },
+    {
+      "id": "hex_forest_0",
+      "source": "Forest.png",
+      "rect": [
+        144,
+        218,
+        272,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "906cca7d7a03468c8d1c95d370b58dae14b18bbbf67abed077ed4d6c2ae30483",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.66,
+        0.78,
+        0.64
+      ]
+    },
+    {
+      "id": "hex_forest_1",
+      "source": "Forest.png",
+      "rect": [
+        144,
+        218,
+        272,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "8cadda84e7106b840f4123b7b5ee81e82c5f1554296b2793d49315f615d8ab78",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.66,
+        0.78,
+        0.64
+      ]
+    },
+    {
+      "id": "hex_forest_2",
+      "source": "Forest.png",
+      "rect": [
+        144,
+        218,
+        272,
+        250
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "1146036183e459f41a385e94ed65c19b68f26dde192fd1fe292411b371581438",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.66,
+        0.78,
+        0.64
+      ]
+    },
+    {
+      "id": "hex_swamp_0",
+      "source": "Forest.png",
+      "rect": [
+        300,
+        223,
+        428,
+        249
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "2ceb27d8122e6ae9465d6825dafbe95e067225bb27ed35ed40122c209f8a3b47",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.69,
+        0.7,
+        0.61
+      ]
+    },
+    {
+      "id": "hex_swamp_1",
+      "source": "Forest.png",
+      "rect": [
+        300,
+        223,
+        428,
+        249
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "1fdb8fd664a8c7ee502dae52fd9468396f0347ef4dde89312a69988200529a55",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.69,
+        0.7,
+        0.61
+      ]
+    },
+    {
+      "id": "hex_swamp_2",
+      "source": "Forest.png",
+      "rect": [
+        300,
+        223,
+        428,
+        249
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "bc8ebaaded5e0a2e378e030c63a093a2233fef4dd3e040c5df48163f4a4065cf",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.69,
+        0.7,
+        0.61
+      ]
+    },
+    {
+      "id": "hex_mountain_0",
+      "source": "Tilesets.png",
+      "rect": [
+        298,
+        1083,
+        362,
+        1102
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "f8de31cb433e8dc2c2e5a7b091fd969f631a8e1e6dd732ce9e52720701f55ecc",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.94,
+        0.93,
+        0.89
+      ]
+    },
+    {
+      "id": "hex_mountain_1",
+      "source": "Tilesets.png",
+      "rect": [
+        298,
+        1083,
+        362,
+        1102
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "a7da686b2bb9fa709ba0bd941aba1cdb79ad1af258a34275c46f3a65bea449fa",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.94,
+        0.93,
+        0.89
+      ]
+    },
+    {
+      "id": "hex_mountain_2",
+      "source": "Tilesets.png",
+      "rect": [
+        298,
+        1083,
+        362,
+        1102
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "ccb65bed0f83a31f989399a132b3f8d89de1a558a828d514597c29998c2de243",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.94,
+        0.93,
+        0.89
+      ]
+    },
+    {
+      "id": "hex_water_0",
+      "source": "Forest of Death 1.png",
+      "rect": [
+        2,
+        1270,
+        130,
+        1312
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "7dfe9dc3f3e213dce991ec355bf6384361760d9eebdf08a5e269e6b495a71909",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.91,
+        0.97,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_water_1",
+      "source": "Forest of Death 1.png",
+      "rect": [
+        2,
+        1270,
+        130,
+        1312
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "5050fe6ebd887c49db8cd7d38652a56f94110b1dc1f0c6160faa8a6bf24aad53",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.91,
+        0.97,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_water_2",
+      "source": "Forest of Death 1.png",
+      "rect": [
+        2,
+        1270,
+        130,
+        1312
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "4a5af73ddb022cef621a0510010740ccc1bf9ecd0b0516a9ae7b8a674ba68c54",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.91,
+        0.97,
+        1.0
+      ]
+    },
+    {
+      "id": "hex_blocked_0",
+      "source": "Tilesets.png",
+      "rect": [
+        15,
+        365,
+        85,
+        405
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "6f38d943aded553ad992a41a32d4015380fea94fe53786d3118a12dbbf193c9e",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.83,
+        0.87,
+        0.86
+      ]
+    },
+    {
+      "id": "hex_blocked_1",
+      "source": "Tilesets.png",
+      "rect": [
+        15,
+        365,
+        85,
+        405
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "0d02df52f5e2aaa9afbf60f3a2b251cbea11390ac12dc6600dd483c0eeb776d0",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.83,
+        0.87,
+        0.86
+      ]
+    },
+    {
+      "id": "hex_blocked_2",
+      "source": "Tilesets.png",
+      "rect": [
+        15,
+        365,
+        85,
+        405
+      ],
+      "size": [
+        64,
+        74
+      ],
+      "sha256": "dd53fbeb6833ccd8765e1cb776ea71bbb0b6d2de534fbb6551762cb3da5a7951",
+      "transform": "sample offset/mirror, palette tint, pointy hex mask",
+      "tint": [
+        0.83,
+        0.87,
+        0.86
+      ]
+    },
+    {
+      "id": "forest_scenery",
+      "source": "Forest.png",
+      "rect": [
+        12,
+        16,
+        516,
+        212
+      ],
+      "size": [
+        504,
+        196
+      ],
+      "sha256": "97008f98cbd23652d815ee464028b95db3c0c41b01117401d88944f9bb49631f",
+      "transform": "reviewed scenery crop; no sheet labels"
+    },
+    {
+      "id": "village_scenery",
+      "source": "Boss Stage.png",
+      "rect": [
+        0,
+        0,
+        505,
+        148
+      ],
+      "size": [
+        505,
+        148
+      ],
+      "sha256": "0b18d4ee11a24c341c7fa443a5d5f5c6801fdaefe767fa826586e6f3b8173c3d",
+      "transform": "reviewed scenery crop; no sheet labels"
+    },
+    {
+      "id": "village_skyline",
+      "source": "Konoha Background.png",
+      "rect": [
+        0,
+        0,
+        551,
+        180
+      ],
+      "size": [
+        551,
+        180
+      ],
+      "sha256": "e732f6c8dbaed9a11a2b278d694ffaaf839f3bd74a7aeb4bcf80843f6bd5bb17",
+      "transform": "reviewed scenery crop; no sheet labels"
+    },
+    {
+      "id": "bridge_scenery",
+      "source": "Bridge.png",
+      "rect": [
+        15,
+        18,
+        519,
+        258
+      ],
+      "size": [
+        504,
+        240
+      ],
+      "sha256": "210ccc0601b21f8ebd3e3fc477ea05dd5ffd2fb701bf7bd902b016b154e3b03a",
+      "transform": "reviewed scenery crop; no sheet labels"
+    },
+    {
+      "id": "bamboo_layer",
+      "source": "Forest of Death 1.png",
+      "rect": [
+        260,
+        468,
+        772,
+        981
+      ],
+      "size": [
+        512,
+        513
+      ],
+      "sha256": "5cd27882aa8e4fac0a4fada5bae0531206db3e26750df52d3c73c6cab47f00b1",
+      "transform": "reviewed scenery crop; no sheet labels"
+    },
+    {
+      "id": "battle_forest",
+      "source": "forest_scenery.png",
+      "rect": [
+        0,
+        0,
+        1100,
+        450
+      ],
+      "size": [
+        1100,
+        450
+      ],
+      "sha256": "b6a254c6d0d3699dfcd50cec7cef024150ac7555d1cb08d30fc7653f9cac0650",
+      "transform": "recompose scenery and ground; nearest scaling",
+      "ground_source": {
+        "file": "Forest.png",
+        "rect": [
+          16,
+          218,
+          144,
+          250
+        ]
+      }
+    },
+    {
+      "id": "battle_village",
+      "source": "village_scenery.png",
+      "rect": [
+        0,
+        0,
+        1100,
+        450
+      ],
+      "size": [
+        1100,
+        450
+      ],
+      "sha256": "8dac9c0b33a539ade1b688184b0f2580683d054ff6a318feec21c0a64b9a96c9",
+      "transform": "recompose scenery and ground; nearest scaling",
+      "ground_source": {
+        "file": "Boss Stage.png",
+        "rect": [
+          20,
+          154,
+          148,
+          188
+        ]
+      }
+    },
+    {
+      "id": "battle_bridge",
+      "source": "bridge_scenery.png",
+      "rect": [
+        0,
+        0,
+        1100,
+        450
+      ],
+      "size": [
+        1100,
+        450
+      ],
+      "sha256": "e6f11ebf18ae9f0e08ee6ca0343b58910dcf3b4d6ae99d96cdf981edbc623830",
+      "transform": "recompose scenery and ground; nearest scaling",
+      "ground_source": {
+        "file": "Boss Stage.png",
+        "rect": [
+          20,
+          154,
+          148,
+          188
+        ]
+      }
+    }
+  ]
+}

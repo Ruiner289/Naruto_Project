@@ -1,0 +1,530 @@
+[
+  {
+    "id": "asuma",
+    "state": "idle",
+    "before_xy_drift": [
+      0.0,
+      0.0
+    ],
+    "after_xy_drift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "asuma",
+    "state": "move",
+    "before_xy_drift": [
+      31.19,
+      1.674
+    ],
+    "after_xy_drift": [
+      0.666,
+      0.921
+    ]
+  },
+  {
+    "id": "choji",
+    "state": "idle",
+    "before_xy_drift": [
+      2.295,
+      1.394
+    ],
+    "after_xy_drift": [
+      0.889,
+      0.917
+    ]
+  },
+  {
+    "id": "choji",
+    "state": "move",
+    "before_xy_drift": [
+      20.016,
+      2.138
+    ],
+    "after_xy_drift": [
+      0.603,
+      0.336
+    ]
+  },
+  {
+    "id": "generic_big_sound",
+    "state": "idle",
+    "before_xy_drift": [
+      1.122,
+      1.073
+    ],
+    "after_xy_drift": [
+      0.749,
+      0.073
+    ]
+  },
+  {
+    "id": "generic_big_sound",
+    "state": "move",
+    "before_xy_drift": [
+      8.737,
+      0.722
+    ],
+    "after_xy_drift": [
+      0.804,
+      0.737
+    ]
+  },
+  {
+    "id": "generic_claw",
+    "state": "idle",
+    "before_xy_drift": [
+      2.001,
+      3.199
+    ],
+    "after_xy_drift": [
+      0.705,
+      0.209
+    ]
+  },
+  {
+    "id": "generic_claw",
+    "state": "move",
+    "before_xy_drift": [
+      2.001,
+      3.199
+    ],
+    "after_xy_drift": [
+      0.705,
+      0.209
+    ]
+  },
+  {
+    "id": "generic_dart",
+    "state": "idle",
+    "before_xy_drift": [
+      1.991,
+      0.788
+    ],
+    "after_xy_drift": [
+      0.677,
+      0.537
+    ]
+  },
+  {
+    "id": "generic_dart",
+    "state": "move",
+    "before_xy_drift": [
+      20.098,
+      1.909
+    ],
+    "after_xy_drift": [
+      0.71,
+      0.851
+    ]
+  },
+  {
+    "id": "generic_flail",
+    "state": "idle",
+    "before_xy_drift": [
+      0.69,
+      1.462
+    ],
+    "after_xy_drift": [
+      0.806,
+      0.873
+    ]
+  },
+  {
+    "id": "generic_flail",
+    "state": "move",
+    "before_xy_drift": [
+      10.856,
+      3.483
+    ],
+    "after_xy_drift": [
+      0.948,
+      0.812
+    ]
+  },
+  {
+    "id": "generic_pole",
+    "state": "idle",
+    "before_xy_drift": [
+      4.33,
+      3.532
+    ],
+    "after_xy_drift": [
+      0.67,
+      0.588
+    ]
+  },
+  {
+    "id": "generic_pole",
+    "state": "move",
+    "before_xy_drift": [
+      4.33,
+      3.532
+    ],
+    "after_xy_drift": [
+      0.67,
+      0.588
+    ]
+  },
+  {
+    "id": "generic_scythe",
+    "state": "idle",
+    "before_xy_drift": [
+      6.921,
+      0.256
+    ],
+    "after_xy_drift": [
+      0.707,
+      0.854
+    ]
+  },
+  {
+    "id": "generic_scythe",
+    "state": "move",
+    "before_xy_drift": [
+      6.921,
+      0.256
+    ],
+    "after_xy_drift": [
+      0.707,
+      0.854
+    ]
+  },
+  {
+    "id": "guy",
+    "state": "idle",
+    "before_xy_drift": [
+      0.391,
+      0.356
+    ],
+    "after_xy_drift": [
+      0.391,
+      0.356
+    ]
+  },
+  {
+    "id": "guy",
+    "state": "move",
+    "before_xy_drift": [
+      43.04,
+      4.823
+    ],
+    "after_xy_drift": [
+      0.811,
+      0.87
+    ]
+  },
+  {
+    "id": "hinata",
+    "state": "idle",
+    "before_xy_drift": [
+      5.536,
+      0.173
+    ],
+    "after_xy_drift": [
+      0.612,
+      0.173
+    ]
+  },
+  {
+    "id": "hinata",
+    "state": "move",
+    "before_xy_drift": [
+      28.492,
+      2.778
+    ],
+    "after_xy_drift": [
+      0.541,
+      0.859
+    ]
+  },
+  {
+    "id": "ino",
+    "state": "idle",
+    "before_xy_drift": [
+      5.405,
+      1.167
+    ],
+    "after_xy_drift": [
+      0.595,
+      0.896
+    ]
+  },
+  {
+    "id": "ino",
+    "state": "move",
+    "before_xy_drift": [
+      36.966,
+      1.399
+    ],
+    "after_xy_drift": [
+      0.511,
+      0.758
+    ]
+  },
+  {
+    "id": "kakashi",
+    "state": "idle",
+    "before_xy_drift": [
+      1.109,
+      1.13
+    ],
+    "after_xy_drift": [
+      0.212,
+      0.547
+    ]
+  },
+  {
+    "id": "kakashi",
+    "state": "move",
+    "before_xy_drift": [
+      40.453,
+      3.975
+    ],
+    "after_xy_drift": [
+      0.666,
+      0.749
+    ]
+  },
+  {
+    "id": "kiba",
+    "state": "idle",
+    "before_xy_drift": [
+      1.784,
+      1.344
+    ],
+    "after_xy_drift": [
+      0.422,
+      0.485
+    ]
+  },
+  {
+    "id": "kiba",
+    "state": "move",
+    "before_xy_drift": [
+      38.537,
+      2.457
+    ],
+    "after_xy_drift": [
+      0.537,
+      0.632
+    ]
+  },
+  {
+    "id": "kurenai",
+    "state": "idle",
+    "before_xy_drift": [
+      0.0,
+      0.0
+    ],
+    "after_xy_drift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "kurenai",
+    "state": "move",
+    "before_xy_drift": [
+      40.452,
+      3.058
+    ],
+    "after_xy_drift": [
+      0.452,
+      0.738
+    ]
+  },
+  {
+    "id": "lee",
+    "state": "idle",
+    "before_xy_drift": [
+      1.551,
+      0.888
+    ],
+    "after_xy_drift": [
+      0.449,
+      0.653
+    ]
+  },
+  {
+    "id": "lee",
+    "state": "move",
+    "before_xy_drift": [
+      26.241,
+      3.152
+    ],
+    "after_xy_drift": [
+      0.484,
+      0.848
+    ]
+  },
+  {
+    "id": "naruto",
+    "state": "idle",
+    "before_xy_drift": [
+      3.09,
+      2.089
+    ],
+    "after_xy_drift": [
+      0.91,
+      0.702
+    ]
+  },
+  {
+    "id": "naruto",
+    "state": "move",
+    "before_xy_drift": [
+      33.929,
+      4.862
+    ],
+    "after_xy_drift": [
+      0.793,
+      0.881
+    ]
+  },
+  {
+    "id": "neji",
+    "state": "idle",
+    "before_xy_drift": [
+      5.578,
+      1.586
+    ],
+    "after_xy_drift": [
+      0.723,
+      0.586
+    ]
+  },
+  {
+    "id": "neji",
+    "state": "move",
+    "before_xy_drift": [
+      32.025,
+      3.441
+    ],
+    "after_xy_drift": [
+      0.656,
+      0.492
+    ]
+  },
+  {
+    "id": "sakura",
+    "state": "idle",
+    "before_xy_drift": [
+      2.531,
+      2.048
+    ],
+    "after_xy_drift": [
+      0.531,
+      0.773
+    ]
+  },
+  {
+    "id": "sakura",
+    "state": "move",
+    "before_xy_drift": [
+      27.678,
+      1.463
+    ],
+    "after_xy_drift": [
+      0.876,
+      0.799
+    ]
+  },
+  {
+    "id": "sasuke",
+    "state": "idle",
+    "before_xy_drift": [
+      0.901,
+      1.743
+    ],
+    "after_xy_drift": [
+      0.26,
+      0.743
+    ]
+  },
+  {
+    "id": "sasuke",
+    "state": "move",
+    "before_xy_drift": [
+      31.859,
+      2.082
+    ],
+    "after_xy_drift": [
+      0.98,
+      0.837
+    ]
+  },
+  {
+    "id": "shikamaru",
+    "state": "idle",
+    "before_xy_drift": [
+      1.9,
+      1.846
+    ],
+    "after_xy_drift": [
+      0.341,
+      0.846
+    ]
+  },
+  {
+    "id": "shikamaru",
+    "state": "move",
+    "before_xy_drift": [
+      32.511,
+      4.25
+    ],
+    "after_xy_drift": [
+      0.543,
+      0.823
+    ]
+  },
+  {
+    "id": "shino",
+    "state": "idle",
+    "before_xy_drift": [
+      0.649,
+      0.263
+    ],
+    "after_xy_drift": [
+      0.791,
+      0.263
+    ]
+  },
+  {
+    "id": "shino",
+    "state": "move",
+    "before_xy_drift": [
+      33.932,
+      2.188
+    ],
+    "after_xy_drift": [
+      0.548,
+      0.188
+    ]
+  },
+  {
+    "id": "tenten",
+    "state": "idle",
+    "before_xy_drift": [
+      2.417,
+      1.159
+    ],
+    "after_xy_drift": [
+      0.748,
+      0.45
+    ]
+  },
+  {
+    "id": "tenten",
+    "state": "move",
+    "before_xy_drift": [
+      38.963,
+      4.881
+    ],
+    "after_xy_drift": [
+      0.361,
+      0.843
+    ]
+  }
+]

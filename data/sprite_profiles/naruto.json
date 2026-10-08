@@ -1,0 +1,608 @@
+{
+  "id": "naruto",
+  "source": "메인캐/우즈마키 나루토/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Naruto Uzumaki.png",
+  "source_sha256": "a4b960c9b80f8bfa796427ca4cde6b376637ee31c8a0a0356aa237ec4799aec2",
+  "default_facing": "right",
+  "scale": 1.8824,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/naruto/idle_00.png",
+          "source_rect": [
+            0,
+            10,
+            45,
+            58
+          ],
+          "source_foot": [
+            17,
+            55
+          ],
+          "bbox": [
+            3,
+            5,
+            38,
+            56
+          ],
+          "source_body_core": [
+            17.42941552219738,
+            32.26429255828808
+          ],
+          "registered_body_core": [
+            120.42941552219739,
+            77.26429255828808
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/idle_01.png",
+          "source_rect": [
+            45,
+            10,
+            44,
+            58
+          ],
+          "source_foot": [
+            18,
+            56
+          ],
+          "bbox": [
+            2,
+            7,
+            37,
+            56
+          ],
+          "source_body_core": [
+            18.188734835355287,
+            32.85528596187175
+          ],
+          "registered_body_core": [
+            120.18873483535529,
+            76.85528596187174
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/idle_02.png",
+          "source_rect": [
+            89,
+            10,
+            44,
+            58
+          ],
+          "source_foot": [
+            19,
+            57
+          ],
+          "bbox": [
+            3,
+            9,
+            37,
+            56
+          ],
+          "source_body_core": [
+            19.19189765458422,
+            33.650959488272925
+          ],
+          "registered_body_core": [
+            120.19189765458422,
+            76.65095948827292
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/idle_03.png",
+          "source_rect": [
+            133,
+            10,
+            43,
+            58
+          ],
+          "source_foot": [
+            20,
+            57
+          ],
+          "bbox": [
+            3,
+            11,
+            37,
+            56
+          ],
+          "source_body_core": [
+            19.51953781512605,
+            34.35336134453782
+          ],
+          "registered_body_core": [
+            119.51953781512606,
+            77.35336134453782
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/naruto/move_00.png",
+          "source_rect": [
+            0,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            33,
+            45
+          ],
+          "bbox": [
+            9,
+            9,
+            54,
+            45
+          ],
+          "source_body_core": [
+            32.70134740936241,
+            27.22725378524795
+          ],
+          "registered_body_core": [
+            119.70134740936241,
+            82.22725378524795
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/move_01.png",
+          "source_rect": [
+            70,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            29,
+            42
+          ],
+          "bbox": [
+            3,
+            5,
+            59,
+            40
+          ],
+          "source_body_core": [
+            28.772265446224257,
+            23.776842105263157
+          ],
+          "registered_body_core": [
+            119.77226544622425,
+            81.77684210526316
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/move_02.png",
+          "source_rect": [
+            140,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            28,
+            44
+          ],
+          "bbox": [
+            4,
+            6,
+            56,
+            44
+          ],
+          "source_body_core": [
+            27.841772151898734,
+            25.562597537714584
+          ],
+          "registered_body_core": [
+            119.84177215189874,
+            81.56259753771458
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/move_03.png",
+          "source_rect": [
+            210,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            36,
+            44
+          ],
+          "bbox": [
+            9,
+            8,
+            58,
+            44
+          ],
+          "source_body_core": [
+            36.082469775474955,
+            26.174438687392055
+          ],
+          "registered_body_core": [
+            120.08246977547495,
+            82.17443868739205
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/move_04.png",
+          "source_rect": [
+            280,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            33,
+            42
+          ],
+          "bbox": [
+            5,
+            5,
+            62,
+            44
+          ],
+          "source_body_core": [
+            32.692837465564736,
+            24.44366391184573
+          ],
+          "registered_body_core": [
+            119.69283746556474,
+            82.44366391184573
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/move_05.png",
+          "source_rect": [
+            350,
+            148,
+            70,
+            49
+          ],
+          "source_foot": [
+            28,
+            44
+          ],
+          "bbox": [
+            8,
+            6,
+            58,
+            47
+          ],
+          "source_body_core": [
+            28.485380116959064,
+            25.915147345487902
+          ],
+          "registered_body_core": [
+            120.48538011695906,
+            81.9151473454879
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/naruto/attack_00.png",
+          "source_rect": [
+            0,
+            705,
+            62,
+            56
+          ],
+          "source_foot": [
+            23,
+            54
+          ],
+          "bbox": [
+            6,
+            6,
+            51,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/attack_01.png",
+          "source_rect": [
+            62,
+            705,
+            61,
+            56
+          ],
+          "source_foot": [
+            21,
+            54
+          ],
+          "bbox": [
+            5,
+            6,
+            45,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/attack_02.png",
+          "source_rect": [
+            123,
+            705,
+            61,
+            56
+          ],
+          "source_foot": [
+            21,
+            54
+          ],
+          "bbox": [
+            5,
+            7,
+            57,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/attack_03.png",
+          "source_rect": [
+            184,
+            705,
+            60,
+            56
+          ],
+          "source_foot": [
+            21,
+            54
+          ],
+          "bbox": [
+            5,
+            4,
+            41,
+            54
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/naruto/hit_00.png",
+          "source_rect": [
+            0,
+            1029,
+            54,
+            58
+          ],
+          "source_foot": [
+            22,
+            56
+          ],
+          "bbox": [
+            3,
+            5,
+            44,
+            56
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/hit_01.png",
+          "source_rect": [
+            54,
+            1029,
+            52,
+            58
+          ],
+          "source_foot": [
+            20,
+            56
+          ],
+          "bbox": [
+            4,
+            15,
+            39,
+            56
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/naruto/ko_00.png",
+          "source_rect": [
+            180,
+            1097,
+            60,
+            44
+          ],
+          "source_foot": [
+            33,
+            42
+          ],
+          "bbox": [
+            6,
+            14,
+            58,
+            42
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/ko_01.png",
+          "source_rect": [
+            120,
+            1097,
+            60,
+            44
+          ],
+          "source_foot": [
+            33,
+            39
+          ],
+          "bbox": [
+            6,
+            11,
+            58,
+            39
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/ko_02.png",
+          "source_rect": [
+            60,
+            1097,
+            60,
+            44
+          ],
+          "source_foot": [
+            33,
+            33
+          ],
+          "bbox": [
+            6,
+            5,
+            58,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/naruto/ko_03.png",
+          "source_rect": [
+            0,
+            1097,
+            60,
+            44
+          ],
+          "source_foot": [
+            32,
+            42
+          ],
+          "bbox": [
+            6,
+            22,
+            59,
+            42
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

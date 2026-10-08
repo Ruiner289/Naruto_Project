@@ -1,0 +1,487 @@
+{
+  "id": "generic_claw",
+  "source": "범용캐/발톱닌자/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Enemies - Claw Ninja.png",
+  "source_sha256": "23dc34641dd4c5552f9fcafeec3596c9ae39dd1fbe858ad0211dd86cd6c2dc91",
+  "default_facing": "left",
+  "scale": 1.6271,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 3,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_claw/idle_00.png",
+          "source_rect": [
+            0,
+            0,
+            53,
+            65
+          ],
+          "source_foot": [
+            23,
+            62
+          ],
+          "bbox": [
+            3,
+            5,
+            45,
+            64
+          ],
+          "source_body_core": [
+            22.576717754434302,
+            35.14887205097296
+          ],
+          "registered_body_core": [
+            119.5767177544343,
+            73.14887205097295
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/idle_01.png",
+          "source_rect": [
+            53,
+            0,
+            53,
+            65
+          ],
+          "source_foot": [
+            22,
+            64
+          ],
+          "bbox": [
+            2,
+            7,
+            46,
+            64
+          ],
+          "source_body_core": [
+            22.280756442227762,
+            37.13871571072319
+          ],
+          "registered_body_core": [
+            120.28075644222776,
+            73.13871571072319
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/idle_02.png",
+          "source_rect": [
+            106,
+            0,
+            49,
+            65
+          ],
+          "source_foot": [
+            22,
+            65
+          ],
+          "bbox": [
+            0,
+            9,
+            47,
+            64
+          ],
+          "source_body_core": [
+            21.575529040972533,
+            38.34804142278253
+          ],
+          "registered_body_core": [
+            119.57552904097253,
+            73.34804142278253
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 9,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_claw/move_00.png",
+          "source_rect": [
+            0,
+            0,
+            53,
+            65
+          ],
+          "source_foot": [
+            23,
+            62
+          ],
+          "bbox": [
+            3,
+            5,
+            45,
+            64
+          ],
+          "source_body_core": [
+            22.576717754434302,
+            35.14887205097296
+          ],
+          "registered_body_core": [
+            119.5767177544343,
+            73.14887205097295
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/move_01.png",
+          "source_rect": [
+            53,
+            0,
+            53,
+            65
+          ],
+          "source_foot": [
+            22,
+            64
+          ],
+          "bbox": [
+            2,
+            7,
+            46,
+            64
+          ],
+          "source_body_core": [
+            22.280756442227762,
+            37.13871571072319
+          ],
+          "registered_body_core": [
+            120.28075644222776,
+            73.13871571072319
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/move_02.png",
+          "source_rect": [
+            106,
+            0,
+            49,
+            65
+          ],
+          "source_foot": [
+            22,
+            65
+          ],
+          "bbox": [
+            0,
+            9,
+            47,
+            64
+          ],
+          "source_body_core": [
+            21.575529040972533,
+            38.34804142278253
+          ],
+          "registered_body_core": [
+            119.57552904097253,
+            73.34804142278253
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_claw/attack_00.png",
+          "source_rect": [
+            0,
+            65,
+            74,
+            73
+          ],
+          "source_foot": [
+            44,
+            65
+          ],
+          "bbox": [
+            26,
+            5,
+            64,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/attack_01.png",
+          "source_rect": [
+            74,
+            65,
+            74,
+            73
+          ],
+          "source_foot": [
+            42,
+            65
+          ],
+          "bbox": [
+            19,
+            7,
+            63,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/attack_02.png",
+          "source_rect": [
+            148,
+            65,
+            74,
+            73
+          ],
+          "source_foot": [
+            46,
+            65
+          ],
+          "bbox": [
+            24,
+            6,
+            69,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/attack_03.png",
+          "source_rect": [
+            222,
+            65,
+            74,
+            73
+          ],
+          "source_foot": [
+            40,
+            65
+          ],
+          "bbox": [
+            0,
+            6,
+            52,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/attack_04.png",
+          "source_rect": [
+            296,
+            65,
+            50,
+            73
+          ],
+          "source_foot": [
+            25,
+            65
+          ],
+          "bbox": [
+            2,
+            9,
+            47,
+            65
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_claw/hit_00.png",
+          "source_rect": [
+            0,
+            268,
+            45,
+            56
+          ],
+          "source_foot": [
+            17,
+            56
+          ],
+          "bbox": [
+            0,
+            0,
+            35,
+            56
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/hit_01.png",
+          "source_rect": [
+            45,
+            268,
+            43,
+            56
+          ],
+          "source_foot": [
+            17,
+            56
+          ],
+          "bbox": [
+            5,
+            4,
+            39,
+            56
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/generic_claw/ko_00.png",
+          "source_rect": [
+            0,
+            383,
+            68,
+            38
+          ],
+          "source_foot": [
+            31,
+            34
+          ],
+          "bbox": [
+            2,
+            14,
+            64,
+            34
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/generic_claw/ko_01.png",
+          "source_rect": [
+            68,
+            383,
+            66,
+            38
+          ],
+          "source_foot": [
+            31,
+            34
+          ],
+          "bbox": [
+            2,
+            14,
+            64,
+            34
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          200,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Move uses idle + Tween: no verified running row."
+  ],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": true,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

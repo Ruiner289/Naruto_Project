@@ -1,0 +1,761 @@
+{
+  "id": "ino",
+  "source": "메인캐/야마나카 이노/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Ino Yamanaka.png",
+  "source_sha256": "a16ecf5fdd470a3307357bec80c6fd8a095e39087a0c46f89d52d63040dc4247",
+  "default_facing": "right",
+  "scale": 1.7455,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/ino/idle_00.png",
+          "source_rect": [
+            0,
+            12,
+            38,
+            57
+          ],
+          "source_foot": [
+            16,
+            57
+          ],
+          "bbox": [
+            6,
+            4,
+            31,
+            57
+          ],
+          "source_body_core": [
+            16.114196459562653,
+            31.400208261020477
+          ],
+          "registered_body_core": [
+            120.11419645956265,
+            74.40020826102048
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/idle_01.png",
+          "source_rect": [
+            38,
+            12,
+            36,
+            57
+          ],
+          "source_foot": [
+            16,
+            58
+          ],
+          "bbox": [
+            4,
+            3,
+            29,
+            57
+          ],
+          "source_body_core": [
+            15.689356435643564,
+            31.671101485148515
+          ],
+          "registered_body_core": [
+            119.68935643564356,
+            73.67110148514851
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/idle_02.png",
+          "source_rect": [
+            74,
+            12,
+            36,
+            57
+          ],
+          "source_foot": [
+            18,
+            57
+          ],
+          "bbox": [
+            5,
+            2,
+            29,
+            57
+          ],
+          "source_body_core": [
+            17.926491994177585,
+            31.16448326055313
+          ],
+          "registered_body_core": [
+            119.92649199417758,
+            74.16448326055313
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/idle_03.png",
+          "source_rect": [
+            110,
+            12,
+            36,
+            57
+          ],
+          "source_foot": [
+            20,
+            57
+          ],
+          "bbox": [
+            5,
+            2,
+            29,
+            57
+          ],
+          "source_body_core": [
+            19.518796992481203,
+            31.3374613003096
+          ],
+          "registered_body_core": [
+            119.5187969924812,
+            74.3374613003096
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/idle_04.png",
+          "source_rect": [
+            146,
+            12,
+            36,
+            57
+          ],
+          "source_foot": [
+            18,
+            57
+          ],
+          "bbox": [
+            5,
+            2,
+            29,
+            57
+          ],
+          "source_body_core": [
+            17.53358681875792,
+            30.50443599493029
+          ],
+          "registered_body_core": [
+            119.53358681875793,
+            73.50443599493029
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/idle_05.png",
+          "source_rect": [
+            182,
+            12,
+            34,
+            57
+          ],
+          "source_foot": [
+            16,
+            58
+          ],
+          "bbox": [
+            5,
+            3,
+            29,
+            57
+          ],
+          "source_body_core": [
+            15.805254515599342,
+            31.565188834154352
+          ],
+          "registered_body_core": [
+            119.80525451559934,
+            73.56518883415436
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          56,
+          192,
+          48
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/ino/move_00.png",
+          "source_rect": [
+            0,
+            155,
+            70,
+            58
+          ],
+          "source_foot": [
+            39,
+            51
+          ],
+          "bbox": [
+            10,
+            7,
+            61,
+            51
+          ],
+          "source_body_core": [
+            39.11441368078176,
+            30.346498371335503
+          ],
+          "registered_body_core": [
+            120.11441368078175,
+            79.3464983713355
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/move_01.png",
+          "source_rect": [
+            70,
+            155,
+            68,
+            58
+          ],
+          "source_foot": [
+            32,
+            55
+          ],
+          "bbox": [
+            15,
+            11,
+            56,
+            55
+          ],
+          "source_body_core": [
+            32.2628290941544,
+            34.2739848282017
+          ],
+          "registered_body_core": [
+            120.2628290941544,
+            79.27398482820169
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/move_02.png",
+          "source_rect": [
+            138,
+            155,
+            68,
+            58
+          ],
+          "source_foot": [
+            36,
+            55
+          ],
+          "bbox": [
+            13,
+            12,
+            57,
+            54
+          ],
+          "source_body_core": [
+            36.43137598597721,
+            33.744609991235755
+          ],
+          "registered_body_core": [
+            120.43137598597721,
+            78.74460999123576
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/move_03.png",
+          "source_rect": [
+            206,
+            155,
+            68,
+            58
+          ],
+          "source_foot": [
+            35,
+            53
+          ],
+          "bbox": [
+            14,
+            9,
+            62,
+            53
+          ],
+          "source_body_core": [
+            35.465579954196414,
+            32.45035699851812
+          ],
+          "registered_body_core": [
+            120.46557995419641,
+            79.45035699851812
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/move_04.png",
+          "source_rect": [
+            274,
+            155,
+            68,
+            58
+          ],
+          "source_foot": [
+            33,
+            55
+          ],
+          "bbox": [
+            16,
+            11,
+            54,
+            56
+          ],
+          "source_body_core": [
+            33.06083459024636,
+            34.345651080945196
+          ],
+          "registered_body_core": [
+            120.06083459024636,
+            79.3456510809452
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/move_05.png",
+          "source_rect": [
+            342,
+            155,
+            66,
+            58
+          ],
+          "source_foot": [
+            35,
+            58
+          ],
+          "bbox": [
+            16,
+            12,
+            55,
+            58
+          ],
+          "source_body_core": [
+            34.95500821018062,
+            36.69228243021347
+          ],
+          "registered_body_core": [
+            119.95500821018062,
+            78.69228243021347
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          56,
+          192,
+          48
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/ino/attack_00.png",
+          "source_rect": [
+            0,
+            793,
+            70,
+            57
+          ],
+          "source_foot": [
+            25,
+            57
+          ],
+          "bbox": [
+            12,
+            4,
+            44,
+            57
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/attack_01.png",
+          "source_rect": [
+            70,
+            793,
+            68,
+            57
+          ],
+          "source_foot": [
+            26,
+            57
+          ],
+          "bbox": [
+            5,
+            8,
+            61,
+            57
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/attack_02.png",
+          "source_rect": [
+            138,
+            793,
+            68,
+            57
+          ],
+          "source_foot": [
+            26,
+            57
+          ],
+          "bbox": [
+            9,
+            9,
+            56,
+            57
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/attack_03.png",
+          "source_rect": [
+            206,
+            793,
+            66,
+            57
+          ],
+          "source_foot": [
+            25,
+            57
+          ],
+          "bbox": [
+            11,
+            4,
+            46,
+            57
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          56,
+          192,
+          48
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/ino/hit_00.png",
+          "source_rect": [
+            0,
+            1143,
+            46,
+            57
+          ],
+          "source_foot": [
+            26,
+            57
+          ],
+          "bbox": [
+            7,
+            4,
+            39,
+            57
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/hit_01.png",
+          "source_rect": [
+            46,
+            1143,
+            42,
+            57
+          ],
+          "source_foot": [
+            24,
+            57
+          ],
+          "bbox": [
+            10,
+            3,
+            39,
+            57
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          56,
+          192,
+          48
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/ino/ko_00.png",
+          "source_rect": [
+            482,
+            1214,
+            58,
+            48
+          ],
+          "source_foot": [
+            23,
+            48
+          ],
+          "bbox": [
+            1,
+            30,
+            54,
+            48
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_01.png",
+          "source_rect": [
+            422,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            37
+          ],
+          "bbox": [
+            2,
+            8,
+            56,
+            37
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_02.png",
+          "source_rect": [
+            362,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            31
+          ],
+          "bbox": [
+            2,
+            2,
+            56,
+            31
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_03.png",
+          "source_rect": [
+            302,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            36
+          ],
+          "bbox": [
+            2,
+            7,
+            56,
+            36
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_04.png",
+          "source_rect": [
+            242,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            23,
+            48
+          ],
+          "bbox": [
+            1,
+            30,
+            54,
+            48
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_05.png",
+          "source_rect": [
+            182,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            42
+          ],
+          "bbox": [
+            2,
+            13,
+            56,
+            42
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_06.png",
+          "source_rect": [
+            122,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            35
+          ],
+          "bbox": [
+            2,
+            6,
+            56,
+            35
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_07.png",
+          "source_rect": [
+            62,
+            1214,
+            60,
+            48
+          ],
+          "source_foot": [
+            38,
+            42
+          ],
+          "bbox": [
+            2,
+            13,
+            56,
+            42
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/ino/ko_08.png",
+          "source_rect": [
+            0,
+            1214,
+            62,
+            48
+          ],
+          "source_foot": [
+            25,
+            48
+          ],
+          "bbox": [
+            3,
+            30,
+            56,
+            48
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          56,
+          192,
+          48
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

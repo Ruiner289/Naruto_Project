@@ -1,0 +1,90 @@
+[
+  {
+    "id": "naruto",
+    "frames": 20
+  },
+  {
+    "id": "sasuke",
+    "frames": 23
+  },
+  {
+    "id": "sakura",
+    "frames": 19
+  },
+  {
+    "id": "kakashi",
+    "frames": 20
+  },
+  {
+    "id": "generic_big_sound",
+    "frames": 21
+  },
+  {
+    "id": "generic_dart",
+    "frames": 20
+  },
+  {
+    "id": "generic_claw",
+    "frames": 15
+  },
+  {
+    "id": "generic_pole",
+    "frames": 20
+  },
+  {
+    "id": "generic_flail",
+    "frames": 40
+  },
+  {
+    "id": "generic_scythe",
+    "frames": 18
+  },
+  {
+    "id": "shikamaru",
+    "frames": 29
+  },
+  {
+    "id": "shino",
+    "frames": 28
+  },
+  {
+    "id": "choji",
+    "frames": 29
+  },
+  {
+    "id": "ino",
+    "frames": 27
+  },
+  {
+    "id": "kiba",
+    "frames": 26
+  },
+  {
+    "id": "hinata",
+    "frames": 26
+  },
+  {
+    "id": "asuma",
+    "frames": 23
+  },
+  {
+    "id": "kurenai",
+    "frames": 16
+  },
+  {
+    "id": "lee",
+    "frames": 21
+  },
+  {
+    "id": "guy",
+    "frames": 21
+  },
+  {
+    "id": "tenten",
+    "frames": 23
+  },
+  {
+    "id": "neji",
+    "frames": 22
+  }
+]

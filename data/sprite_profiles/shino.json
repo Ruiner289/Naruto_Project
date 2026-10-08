@@ -1,0 +1,785 @@
+{
+  "id": "shino",
+  "source": "메인캐/아부라메 시노/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Shino Aburame.png",
+  "source_sha256": "fa2ff9e310e997d30e3a4d4a27b6bdb74bf150b21b296af23be0246203039bfd",
+  "default_facing": "right",
+  "scale": 1.6271,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/idle_00.png",
+          "source_rect": [
+            0,
+            12,
+            38,
+            64
+          ],
+          "source_foot": [
+            15,
+            64
+          ],
+          "bbox": [
+            3,
+            5,
+            28,
+            64
+          ],
+          "source_body_core": [
+            14.64352660841938,
+            36.03606036536934
+          ],
+          "registered_body_core": [
+            119.64352660841938,
+            72.03606036536934
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_01.png",
+          "source_rect": [
+            38,
+            12,
+            36,
+            64
+          ],
+          "source_foot": [
+            12,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.407009345794393,
+            36.05031152647975
+          ],
+          "registered_body_core": [
+            120.40700934579439,
+            72.05031152647976
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_02.png",
+          "source_rect": [
+            74,
+            12,
+            36,
+            64
+          ],
+          "source_foot": [
+            12,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.248,
+            36.142153846153846
+          ],
+          "registered_body_core": [
+            120.248,
+            72.14215384615385
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_03.png",
+          "source_rect": [
+            110,
+            12,
+            36,
+            64
+          ],
+          "source_foot": [
+            12,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.43421671632429,
+            36.01019288066489
+          ],
+          "registered_body_core": [
+            120.43421671632429,
+            72.01019288066489
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_04.png",
+          "source_rect": [
+            146,
+            12,
+            36,
+            64
+          ],
+          "source_foot": [
+            13,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.80886994949495,
+            36.02888257575758
+          ],
+          "registered_body_core": [
+            119.80886994949495,
+            72.02888257575758
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_05.png",
+          "source_rect": [
+            182,
+            12,
+            36,
+            64
+          ],
+          "source_foot": [
+            13,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.897411764705883,
+            35.996235294117646
+          ],
+          "registered_body_core": [
+            119.89741176470588,
+            71.99623529411764
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/idle_06.png",
+          "source_rect": [
+            218,
+            12,
+            34,
+            64
+          ],
+          "source_foot": [
+            13,
+            64
+          ],
+          "bbox": [
+            1,
+            5,
+            26,
+            64
+          ],
+          "source_body_core": [
+            12.682483512948368,
+            35.8787196396976
+          ],
+          "registered_body_core": [
+            119.68248351294837,
+            71.87871963969761
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          32,
+          248,
+          0
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/move_00.png",
+          "source_rect": [
+            0,
+            171,
+            64,
+            55
+          ],
+          "source_foot": [
+            28,
+            52
+          ],
+          "bbox": [
+            7,
+            5,
+            51,
+            52
+          ],
+          "source_body_core": [
+            28.321767713659607,
+            28.7036157779401
+          ],
+          "registered_body_core": [
+            120.32176771365961,
+            76.7036157779401
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/move_01.png",
+          "source_rect": [
+            64,
+            171,
+            62,
+            55
+          ],
+          "source_foot": [
+            24,
+            51
+          ],
+          "bbox": [
+            1,
+            3,
+            50,
+            49
+          ],
+          "source_body_core": [
+            24.403848978992215,
+            27.891582194799472
+          ],
+          "registered_body_core": [
+            120.40384897899222,
+            76.89158219479947
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/move_02.png",
+          "source_rect": [
+            126,
+            171,
+            62,
+            55
+          ],
+          "source_foot": [
+            27,
+            53
+          ],
+          "bbox": [
+            2,
+            6,
+            49,
+            52
+          ],
+          "source_body_core": [
+            26.856014959484728,
+            29.80822771660087
+          ],
+          "registered_body_core": [
+            119.85601495948472,
+            76.80822771660087
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/move_03.png",
+          "source_rect": [
+            188,
+            171,
+            62,
+            55
+          ],
+          "source_foot": [
+            27,
+            52
+          ],
+          "bbox": [
+            11,
+            4,
+            49,
+            52
+          ],
+          "source_body_core": [
+            27.218743605483937,
+            28.85839983630039
+          ],
+          "registered_body_core": [
+            120.21874360548394,
+            76.85839983630039
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/move_04.png",
+          "source_rect": [
+            250,
+            171,
+            62,
+            55
+          ],
+          "source_foot": [
+            27,
+            51
+          ],
+          "bbox": [
+            3,
+            3,
+            52,
+            49
+          ],
+          "source_body_core": [
+            27.390188679245284,
+            27.76890566037736
+          ],
+          "registered_body_core": [
+            120.39018867924528,
+            76.76890566037736
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/move_05.png",
+          "source_rect": [
+            312,
+            171,
+            60,
+            55
+          ],
+          "source_foot": [
+            25,
+            55
+          ],
+          "bbox": [
+            5,
+            5,
+            48,
+            55
+          ],
+          "source_body_core": [
+            24.890072811223583,
+            31.804652814775352
+          ],
+          "registered_body_core": [
+            119.89007281122358,
+            76.80465281477535
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/attack_00.png",
+          "source_rect": [
+            0,
+            829,
+            62,
+            65
+          ],
+          "source_foot": [
+            22,
+            65
+          ],
+          "bbox": [
+            7,
+            7,
+            34,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/attack_01.png",
+          "source_rect": [
+            62,
+            829,
+            60,
+            65
+          ],
+          "source_foot": [
+            21,
+            65
+          ],
+          "bbox": [
+            9,
+            10,
+            57,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/attack_02.png",
+          "source_rect": [
+            122,
+            829,
+            60,
+            65
+          ],
+          "source_foot": [
+            21,
+            65
+          ],
+          "bbox": [
+            9,
+            10,
+            54,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/attack_03.png",
+          "source_rect": [
+            182,
+            829,
+            58,
+            65
+          ],
+          "source_foot": [
+            21,
+            65
+          ],
+          "bbox": [
+            6,
+            10,
+            45,
+            65
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/hit_00.png",
+          "source_rect": [
+            0,
+            1293,
+            54,
+            66
+          ],
+          "source_foot": [
+            27,
+            65
+          ],
+          "bbox": [
+            14,
+            6,
+            39,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/hit_01.png",
+          "source_rect": [
+            54,
+            1293,
+            52,
+            66
+          ],
+          "source_foot": [
+            25,
+            65
+          ],
+          "bbox": [
+            8,
+            9,
+            37,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/hit_02.png",
+          "source_rect": [
+            106,
+            1293,
+            52,
+            66
+          ],
+          "source_foot": [
+            24,
+            65
+          ],
+          "bbox": [
+            7,
+            16,
+            36,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/hit_03.png",
+          "source_rect": [
+            158,
+            1293,
+            50,
+            66
+          ],
+          "source_foot": [
+            25,
+            66
+          ],
+          "bbox": [
+            3,
+            13,
+            46,
+            66
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/ko_00.png",
+          "source_rect": [
+            206,
+            1373,
+            66,
+            44
+          ],
+          "source_foot": [
+            37,
+            41
+          ],
+          "bbox": [
+            1,
+            17,
+            60,
+            41
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/ko_01.png",
+          "source_rect": [
+            138,
+            1373,
+            68,
+            44
+          ],
+          "source_foot": [
+            37,
+            25
+          ],
+          "bbox": [
+            1,
+            1,
+            60,
+            25
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/ko_02.png",
+          "source_rect": [
+            70,
+            1373,
+            68,
+            44
+          ],
+          "source_foot": [
+            37,
+            33
+          ],
+          "bbox": [
+            1,
+            9,
+            60,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/ko_03.png",
+          "source_rect": [
+            0,
+            1373,
+            70,
+            44
+          ],
+          "source_foot": [
+            32,
+            44
+          ],
+          "bbox": [
+            3,
+            25,
+            62,
+            44
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ]
+      ]
+    },
+    "ranged_attack": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/shino/ranged_attack_00.png",
+          "source_rect": [
+            0,
+            682,
+            59,
+            65
+          ],
+          "source_foot": [
+            24,
+            65
+          ],
+          "bbox": [
+            11,
+            10,
+            49,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/ranged_attack_01.png",
+          "source_rect": [
+            59,
+            682,
+            57,
+            65
+          ],
+          "source_foot": [
+            21,
+            65
+          ],
+          "bbox": [
+            4,
+            11,
+            37,
+            65
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/shino/ranged_attack_02.png",
+          "source_rect": [
+            116,
+            682,
+            55,
+            65
+          ],
+          "source_foot": [
+            21,
+            65
+          ],
+          "bbox": [
+            6,
+            8,
+            35,
+            65
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ]
+      ],
+      "default_facing": "left"
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT",
+  "ranged_impact_frame": 2
+}

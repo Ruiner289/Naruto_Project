@@ -1,0 +1,690 @@
+{
+  "id": "sasuke",
+  "source": "메인캐/우치하 사스케/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Sasuke Uchiha.png",
+  "source_sha256": "740631f87339fdfd47da421f9c3468dcd6ac57cf9960a754db59f16edb6968c6",
+  "default_facing": "right",
+  "scale": 1.8462,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/idle_00.png",
+          "source_rect": [
+            0,
+            10,
+            45,
+            59
+          ],
+          "source_foot": [
+            25,
+            57
+          ],
+          "bbox": [
+            4,
+            5,
+            41,
+            57
+          ],
+          "source_body_core": [
+            25.17889530090684,
+            31.723825226710634
+          ],
+          "registered_body_core": [
+            120.17889530090685,
+            74.72382522671063
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/idle_01.png",
+          "source_rect": [
+            45,
+            10,
+            44,
+            59
+          ],
+          "source_foot": [
+            25,
+            58
+          ],
+          "bbox": [
+            3,
+            6,
+            41,
+            57
+          ],
+          "source_body_core": [
+            25.014225181598064,
+            32.835805084745765
+          ],
+          "registered_body_core": [
+            120.01422518159806,
+            74.83580508474577
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/idle_02.png",
+          "source_rect": [
+            89,
+            10,
+            44,
+            59
+          ],
+          "source_foot": [
+            25,
+            58
+          ],
+          "bbox": [
+            3,
+            8,
+            41,
+            57
+          ],
+          "source_body_core": [
+            24.918959231024196,
+            33.43006297646669
+          ],
+          "registered_body_core": [
+            119.91895923102419,
+            75.43006297646669
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/idle_03.png",
+          "source_rect": [
+            133,
+            10,
+            43,
+            59
+          ],
+          "source_foot": [
+            24,
+            57
+          ],
+          "bbox": [
+            3,
+            5,
+            39,
+            57
+          ],
+          "source_body_core": [
+            24.11324200913242,
+            31.686575342465755
+          ],
+          "registered_body_core": [
+            120.11324200913242,
+            74.68657534246576
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_00.png",
+          "source_rect": [
+            0,
+            142,
+            60,
+            53
+          ],
+          "source_foot": [
+            30,
+            51
+          ],
+          "bbox": [
+            7,
+            7,
+            49,
+            51
+          ],
+          "source_body_core": [
+            30.358341369334617,
+            30.64262295081967
+          ],
+          "registered_body_core": [
+            120.35834136933462,
+            79.64262295081967
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_01.png",
+          "source_rect": [
+            60,
+            142,
+            59,
+            53
+          ],
+          "source_foot": [
+            30,
+            50
+          ],
+          "bbox": [
+            2,
+            9,
+            50,
+            50
+          ],
+          "source_body_core": [
+            30.49962560838637,
+            29.763384500187197
+          ],
+          "registered_body_core": [
+            120.49962560838637,
+            79.7633845001872
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_02.png",
+          "source_rect": [
+            119,
+            142,
+            59,
+            53
+          ],
+          "source_foot": [
+            29,
+            49
+          ],
+          "bbox": [
+            11,
+            7,
+            47,
+            49
+          ],
+          "source_body_core": [
+            28.5195007800312,
+            29.28861154446178
+          ],
+          "registered_body_core": [
+            119.5195007800312,
+            80.28861154446179
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_03.png",
+          "source_rect": [
+            178,
+            142,
+            59,
+            53
+          ],
+          "source_foot": [
+            31,
+            48
+          ],
+          "bbox": [
+            10,
+            5,
+            49,
+            49
+          ],
+          "source_body_core": [
+            30.809605263157895,
+            28.233815789473685
+          ],
+          "registered_body_core": [
+            119.80960526315789,
+            80.23381578947368
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_04.png",
+          "source_rect": [
+            237,
+            142,
+            59,
+            53
+          ],
+          "source_foot": [
+            30,
+            49
+          ],
+          "bbox": [
+            9,
+            9,
+            51,
+            51
+          ],
+          "source_body_core": [
+            30.12266394835202,
+            29.397213727488957
+          ],
+          "registered_body_core": [
+            120.12266394835203,
+            80.39721372748896
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/move_05.png",
+          "source_rect": [
+            296,
+            142,
+            58,
+            53
+          ],
+          "source_foot": [
+            27,
+            51
+          ],
+          "bbox": [
+            14,
+            9,
+            48,
+            51
+          ],
+          "source_body_core": [
+            27.22390645300996,
+            31.479644867908185
+          ],
+          "registered_body_core": [
+            120.22390645300996,
+            80.47964486790818
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/attack_00.png",
+          "source_rect": [
+            0,
+            708,
+            63,
+            56
+          ],
+          "source_foot": [
+            9,
+            54
+          ],
+          "bbox": [
+            5,
+            3,
+            40,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/attack_01.png",
+          "source_rect": [
+            63,
+            708,
+            62,
+            56
+          ],
+          "source_foot": [
+            9,
+            54
+          ],
+          "bbox": [
+            4,
+            7,
+            56,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/attack_02.png",
+          "source_rect": [
+            125,
+            708,
+            62,
+            56
+          ],
+          "source_foot": [
+            9,
+            54
+          ],
+          "bbox": [
+            4,
+            5,
+            53,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/attack_03.png",
+          "source_rect": [
+            187,
+            708,
+            61,
+            56
+          ],
+          "source_foot": [
+            7,
+            54
+          ],
+          "bbox": [
+            3,
+            12,
+            39,
+            54
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/hit_00.png",
+          "source_rect": [
+            0,
+            1025,
+            48,
+            51
+          ],
+          "source_foot": [
+            13,
+            49
+          ],
+          "bbox": [
+            3,
+            3,
+            40,
+            49
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/hit_01.png",
+          "source_rect": [
+            48,
+            1025,
+            46,
+            51
+          ],
+          "source_foot": [
+            12,
+            49
+          ],
+          "bbox": [
+            6,
+            3,
+            41,
+            49
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/ko_00.png",
+          "source_rect": [
+            180,
+            1086,
+            60,
+            32
+          ],
+          "source_foot": [
+            29,
+            30
+          ],
+          "bbox": [
+            4,
+            10,
+            52,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/ko_01.png",
+          "source_rect": [
+            120,
+            1086,
+            60,
+            32
+          ],
+          "source_foot": [
+            29,
+            26
+          ],
+          "bbox": [
+            4,
+            6,
+            52,
+            26
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/ko_02.png",
+          "source_rect": [
+            60,
+            1086,
+            60,
+            32
+          ],
+          "source_foot": [
+            29,
+            23
+          ],
+          "bbox": [
+            4,
+            3,
+            52,
+            23
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/ko_03.png",
+          "source_rect": [
+            0,
+            1086,
+            60,
+            32
+          ],
+          "source_foot": [
+            28,
+            30
+          ],
+          "bbox": [
+            3,
+            13,
+            54,
+            30
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ]
+    },
+    "ranged_attack": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/sasuke/ranged_attack_00.png",
+          "source_rect": [
+            0,
+            585,
+            61,
+            53
+          ],
+          "source_foot": [
+            8,
+            51
+          ],
+          "bbox": [
+            3,
+            8,
+            54,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/ranged_attack_01.png",
+          "source_rect": [
+            61,
+            585,
+            60,
+            53
+          ],
+          "source_foot": [
+            7,
+            51
+          ],
+          "bbox": [
+            2,
+            6,
+            47,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/sasuke/ranged_attack_02.png",
+          "source_rect": [
+            121,
+            585,
+            59,
+            53
+          ],
+          "source_foot": [
+            7,
+            51
+          ],
+          "bbox": [
+            1,
+            8,
+            41,
+            51
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          120,
+          0
+        ],
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ]
+      ],
+      "default_facing": "left"
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT",
+  "ranged_impact_frame": 2
+}

@@ -1,0 +1,742 @@
+{
+  "id": "kiba",
+  "source": "메인캐/이누즈카 키바/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Kiba Inuzuka.png",
+  "source_sha256": "4efdfd3506b77c0a8c2a4a93f5b8aa9cc6f2e2a2de2eae7c96233b725f4165b8",
+  "default_facing": "right",
+  "scale": 1.8462,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_00.png",
+          "source_rect": [
+            0,
+            12,
+            46,
+            53
+          ],
+          "source_foot": [
+            19,
+            52
+          ],
+          "bbox": [
+            3,
+            1,
+            38,
+            53
+          ],
+          "source_body_core": [
+            18.889627118644068,
+            29.107525423728813
+          ],
+          "registered_body_core": [
+            119.88962711864407,
+            77.10752542372882
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_01.png",
+          "source_rect": [
+            46,
+            12,
+            44,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            2,
+            37,
+            53
+          ],
+          "source_body_core": [
+            16.91318472051081,
+            29.966954183936373
+          ],
+          "registered_body_core": [
+            119.91318472051081,
+            76.96695418393637
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_02.png",
+          "source_rect": [
+            90,
+            12,
+            44,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            4,
+            39,
+            53
+          ],
+          "source_body_core": [
+            17.095809030028082,
+            30.05692374162886
+          ],
+          "registered_body_core": [
+            120.09580903002808,
+            77.05692374162886
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_03.png",
+          "source_rect": [
+            134,
+            12,
+            44,
+            53
+          ],
+          "source_foot": [
+            19,
+            53
+          ],
+          "bbox": [
+            1,
+            6,
+            39,
+            53
+          ],
+          "source_body_core": [
+            18.67357056296133,
+            30.451580918805774
+          ],
+          "registered_body_core": [
+            119.67357056296133,
+            77.45158091880577
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_04.png",
+          "source_rect": [
+            178,
+            12,
+            44,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            4,
+            39,
+            53
+          ],
+          "source_body_core": [
+            17.095809030028082,
+            30.05692374162886
+          ],
+          "registered_body_core": [
+            120.09580903002808,
+            77.05692374162886
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/idle_05.png",
+          "source_rect": [
+            222,
+            12,
+            42,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            2,
+            37,
+            53
+          ],
+          "source_body_core": [
+            16.91318472051081,
+            29.966954183936373
+          ],
+          "registered_body_core": [
+            119.91318472051081,
+            76.96695418393637
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kiba/move_00.png",
+          "source_rect": [
+            0,
+            149,
+            62,
+            53
+          ],
+          "source_foot": [
+            38,
+            45
+          ],
+          "bbox": [
+            3,
+            2,
+            59,
+            46
+          ],
+          "source_body_core": [
+            37.992154611557595,
+            24.199961729812475
+          ],
+          "registered_body_core": [
+            119.9921546115576,
+            79.19996172981247
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/move_01.png",
+          "source_rect": [
+            62,
+            149,
+            60,
+            53
+          ],
+          "source_foot": [
+            29,
+            51
+          ],
+          "bbox": [
+            12,
+            6,
+            52,
+            53
+          ],
+          "source_body_core": [
+            28.928441617446616,
+            29.931735574738756
+          ],
+          "registered_body_core": [
+            119.92844161744662,
+            78.93173557473875
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/move_02.png",
+          "source_rect": [
+            122,
+            149,
+            60,
+            53
+          ],
+          "source_foot": [
+            27,
+            52
+          ],
+          "bbox": [
+            2,
+            7,
+            54,
+            53
+          ],
+          "source_body_core": [
+            27.342509688627555,
+            30.756915675531204
+          ],
+          "registered_body_core": [
+            120.34250968862756,
+            78.7569156755312
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/move_03.png",
+          "source_rect": [
+            182,
+            149,
+            60,
+            53
+          ],
+          "source_foot": [
+            32,
+            48
+          ],
+          "bbox": [
+            4,
+            3,
+            56,
+            48
+          ],
+          "source_body_core": [
+            31.80548849187188,
+            26.92555931112184
+          ],
+          "registered_body_core": [
+            119.80548849187188,
+            78.92555931112184
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/move_04.png",
+          "source_rect": [
+            242,
+            149,
+            60,
+            53
+          ],
+          "source_foot": [
+            27,
+            51
+          ],
+          "bbox": [
+            3,
+            7,
+            53,
+            51
+          ],
+          "source_body_core": [
+            26.81953867028494,
+            30.004748982360923
+          ],
+          "registered_body_core": [
+            119.81953867028494,
+            79.00474898236092
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/move_05.png",
+          "source_rect": [
+            302,
+            149,
+            58,
+            53
+          ],
+          "source_foot": [
+            29,
+            51
+          ],
+          "bbox": [
+            9,
+            9,
+            54,
+            51
+          ],
+          "source_body_core": [
+            28.98204814361485,
+            30.388956888344893
+          ],
+          "registered_body_core": [
+            119.98204814361485,
+            79.3889568883449
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kiba/attack_00.png",
+          "source_rect": [
+            0,
+            765,
+            62,
+            53
+          ],
+          "source_foot": [
+            19,
+            53
+          ],
+          "bbox": [
+            3,
+            2,
+            40,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/attack_01.png",
+          "source_rect": [
+            62,
+            765,
+            60,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            6,
+            56,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/attack_02.png",
+          "source_rect": [
+            122,
+            765,
+            60,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            7,
+            56,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/attack_03.png",
+          "source_rect": [
+            182,
+            765,
+            58,
+            53
+          ],
+          "source_foot": [
+            17,
+            53
+          ],
+          "bbox": [
+            1,
+            2,
+            38,
+            53
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kiba/hit_00.png",
+          "source_rect": [
+            0,
+            1279,
+            54,
+            54
+          ],
+          "source_foot": [
+            22,
+            54
+          ],
+          "bbox": [
+            6,
+            1,
+            39,
+            54
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/hit_01.png",
+          "source_rect": [
+            54,
+            1279,
+            50,
+            54
+          ],
+          "source_foot": [
+            21,
+            54
+          ],
+          "bbox": [
+            1,
+            9,
+            43,
+            54
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_00.png",
+          "source_rect": [
+            478,
+            1347,
+            66,
+            33
+          ],
+          "source_foot": [
+            32,
+            32
+          ],
+          "bbox": [
+            4,
+            8,
+            61,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_01.png",
+          "source_rect": [
+            410,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            29
+          ],
+          "bbox": [
+            4,
+            5,
+            61,
+            29
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_02.png",
+          "source_rect": [
+            342,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            32
+          ],
+          "bbox": [
+            4,
+            8,
+            61,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_03.png",
+          "source_rect": [
+            274,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            33
+          ],
+          "bbox": [
+            1,
+            15,
+            63,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_04.png",
+          "source_rect": [
+            206,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            29
+          ],
+          "bbox": [
+            4,
+            5,
+            61,
+            29
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_05.png",
+          "source_rect": [
+            138,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            25
+          ],
+          "bbox": [
+            4,
+            1,
+            61,
+            25
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_06.png",
+          "source_rect": [
+            70,
+            1347,
+            68,
+            33
+          ],
+          "source_foot": [
+            32,
+            30
+          ],
+          "bbox": [
+            4,
+            6,
+            61,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/kiba/ko_07.png",
+          "source_rect": [
+            0,
+            1347,
+            70,
+            33
+          ],
+          "source_foot": [
+            34,
+            33
+          ],
+          "bbox": [
+            3,
+            15,
+            65,
+            33
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "squad_name": "카카시반",
+  "leader_id": "kakashi",
+  "members": [
+    {
+      "ninja_id": "kakashi",
+      "position": {
+        "column": 2,
+        "row_offset": 0.0
+      }
+    },
+    {
+      "ninja_id": "naruto",
+      "position": {
+        "column": 2,
+        "row_offset": 2.0
+      }
+    },
+    {
+      "ninja_id": "sasuke",
+      "position": {
+        "column": 1,
+        "row_offset": 0.5
+      }
+    },
+    {
+      "ninja_id": "sakura",
+      "position": {
+        "column": 0,
+        "row_offset": 1.5
+      }
+    }
+  ],
+  "current_hp": {
+    "kakashi": 80,
+    "naruto": 50,
+    "sasuke": 50,
+    "sakura": 50
+  }
+}

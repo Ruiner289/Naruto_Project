@@ -1,0 +1,690 @@
+{
+  "id": "tenten",
+  "source": "메인캐/텐텐/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Tenten.png",
+  "source_sha256": "5b904e4d406719c82df511ac1d437b5200bd6423baeccd60ceb814602ae27cb1",
+  "default_facing": "right",
+  "scale": 1.92,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 1,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/idle_00.png",
+          "source_rect": [
+            0,
+            1321,
+            42,
+            56
+          ],
+          "source_foot": [
+            13,
+            50
+          ],
+          "bbox": [
+            0,
+            0,
+            35,
+            50
+          ],
+          "source_body_core": [
+            12.639727649496743,
+            26.659561870929544
+          ],
+          "registered_body_core": [
+            119.63972764949675,
+            76.65956187092954
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/idle_01.png",
+          "source_rect": [
+            42,
+            1321,
+            42,
+            56
+          ],
+          "source_foot": [
+            13,
+            49
+          ],
+          "bbox": [
+            0,
+            1,
+            35,
+            50
+          ],
+          "source_body_core": [
+            13.127707808564232,
+            25.95088161209068
+          ],
+          "registered_body_core": [
+            120.12770780856422,
+            76.95088161209068
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/idle_02.png",
+          "source_rect": [
+            84,
+            1321,
+            42,
+            56
+          ],
+          "source_foot": [
+            14,
+            50
+          ],
+          "bbox": [
+            0,
+            3,
+            35,
+            50
+          ],
+          "source_body_core": [
+            14.387431480031323,
+            26.727877838684417
+          ],
+          "registered_body_core": [
+            120.38743148003132,
+            76.72787783868442
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/idle_03.png",
+          "source_rect": [
+            126,
+            1321,
+            40,
+            56
+          ],
+          "source_foot": [
+            15,
+            50
+          ],
+          "bbox": [
+            0,
+            4,
+            35,
+            50
+          ],
+          "source_body_core": [
+            15.056241184767277,
+            27.10966149506347
+          ],
+          "registered_body_core": [
+            120.05624118476727,
+            77.10966149506348
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/move_00.png",
+          "source_rect": [
+            0,
+            373,
+            58,
+            48
+          ],
+          "source_foot": [
+            25,
+            46
+          ],
+          "bbox": [
+            0,
+            0,
+            52,
+            42
+          ],
+          "source_body_core": [
+            25.23541463414634,
+            23.51248780487805
+          ],
+          "registered_body_core": [
+            120.23541463414634,
+            77.51248780487805
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/move_01.png",
+          "source_rect": [
+            58,
+            373,
+            58,
+            48
+          ],
+          "source_foot": [
+            27,
+            46
+          ],
+          "bbox": [
+            11,
+            2,
+            45,
+            46
+          ],
+          "source_body_core": [
+            27.097890966971747,
+            24.335455630720254
+          ],
+          "registered_body_core": [
+            120.09789096697175,
+            78.33545563072025
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/move_02.png",
+          "source_rect": [
+            116,
+            373,
+            58,
+            48
+          ],
+          "source_foot": [
+            30,
+            46
+          ],
+          "bbox": [
+            10,
+            1,
+            47,
+            46
+          ],
+          "source_body_core": [
+            29.87432397630698,
+            24.046098377543135
+          ],
+          "registered_body_core": [
+            119.87432397630698,
+            78.04609837754313
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/move_03.png",
+          "source_rect": [
+            174,
+            373,
+            58,
+            48
+          ],
+          "source_foot": [
+            27,
+            45
+          ],
+          "bbox": [
+            3,
+            0,
+            52,
+            42
+          ],
+          "source_body_core": [
+            27.009492469307684,
+            22.526895329705102
+          ],
+          "registered_body_core": [
+            120.00949246930769,
+            77.5268953297051
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/move_04.png",
+          "source_rect": [
+            232,
+            373,
+            58,
+            48
+          ],
+          "source_foot": [
+            27,
+            47
+          ],
+          "bbox": [
+            14,
+            2,
+            45,
+            48
+          ],
+          "source_body_core": [
+            26.96392646548734,
+            24.631980575789107
+          ],
+          "registered_body_core": [
+            119.96392646548733,
+            77.6319805757891
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/move_05.png",
+          "source_rect": [
+            290,
+            373,
+            56,
+            48
+          ],
+          "source_foot": [
+            28,
+            47
+          ],
+          "bbox": [
+            7,
+            1,
+            47,
+            48
+          ],
+          "source_body_core": [
+            28.198184176394292,
+            25.355642023346302
+          ],
+          "registered_body_core": [
+            120.19818417639429,
+            78.3556420233463
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/attack_00.png",
+          "source_rect": [
+            0,
+            0,
+            58,
+            56
+          ],
+          "source_foot": [
+            10,
+            51
+          ],
+          "bbox": [
+            0,
+            0,
+            38,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/attack_01.png",
+          "source_rect": [
+            58,
+            0,
+            58,
+            56
+          ],
+          "source_foot": [
+            12,
+            51
+          ],
+          "bbox": [
+            7,
+            4,
+            54,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/attack_02.png",
+          "source_rect": [
+            116,
+            0,
+            58,
+            56
+          ],
+          "source_foot": [
+            12,
+            51
+          ],
+          "bbox": [
+            7,
+            4,
+            51,
+            51
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/attack_03.png",
+          "source_rect": [
+            174,
+            0,
+            56,
+            56
+          ],
+          "source_foot": [
+            11,
+            51
+          ],
+          "bbox": [
+            6,
+            2,
+            39,
+            51
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/hit_00.png",
+          "source_rect": [
+            0,
+            855,
+            59,
+            91
+          ],
+          "source_foot": [
+            13,
+            89
+          ],
+          "bbox": [
+            8,
+            43,
+            40,
+            89
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/hit_01.png",
+          "source_rect": [
+            59,
+            855,
+            57,
+            91
+          ],
+          "source_foot": [
+            13,
+            89
+          ],
+          "bbox": [
+            1,
+            39,
+            39,
+            89
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/ko_00.png",
+          "source_rect": [
+            177,
+            1041,
+            57,
+            38
+          ],
+          "source_foot": [
+            38,
+            33
+          ],
+          "bbox": [
+            0,
+            9,
+            55,
+            33
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/ko_01.png",
+          "source_rect": [
+            118,
+            1041,
+            59,
+            38
+          ],
+          "source_foot": [
+            38,
+            28
+          ],
+          "bbox": [
+            0,
+            4,
+            55,
+            28
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/ko_02.png",
+          "source_rect": [
+            59,
+            1041,
+            59,
+            38
+          ],
+          "source_foot": [
+            38,
+            24
+          ],
+          "bbox": [
+            0,
+            0,
+            55,
+            24
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/ko_03.png",
+          "source_rect": [
+            0,
+            1041,
+            59,
+            38
+          ],
+          "source_foot": [
+            26,
+            31
+          ],
+          "bbox": [
+            1,
+            15,
+            55,
+            31
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ]
+    },
+    "ranged_attack": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/tenten/ranged_attack_00.png",
+          "source_rect": [
+            0,
+            805,
+            58,
+            48
+          ],
+          "source_foot": [
+            6,
+            48
+          ],
+          "bbox": [
+            0,
+            2,
+            34,
+            48
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/ranged_attack_01.png",
+          "source_rect": [
+            58,
+            805,
+            58,
+            48
+          ],
+          "source_foot": [
+            8,
+            48
+          ],
+          "bbox": [
+            3,
+            0,
+            51,
+            48
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/tenten/ranged_attack_02.png",
+          "source_rect": [
+            116,
+            805,
+            56,
+            48
+          ],
+          "source_foot": [
+            10,
+            48
+          ],
+          "bbox": [
+            4,
+            1,
+            37,
+            48
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          168,
+          168,
+          152
+        ]
+      ],
+      "default_facing": "left"
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT",
+  "ranged_impact_frame": 1
+}

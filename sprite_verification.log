@@ -1,0 +1,57 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+[Sprite fallback] No reviewed profile: unmapped_test
+Sprite scenario A: 10 events
+Sprite scenario B: 12 events
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 공격측 사스케 → 방어측 다트병 공격 / 피해 14 / HP 36/50
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 28/50
+[PHASE 4 - LightMelee] 공격측 나루토 → 방어측 발톱병 공격 / 피해 14 / HP 36/50
+[공격측 · PHASE 5 - HeavyMelee]
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[방어측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 카카시 공격 / 피해 14 / HP 66/80
+[방어측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 방어측 발톱병 → 공격측 나루토 공격 / 피해 14 / HP 36/50
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 52/80
+[PHASE 4 - LightMelee] 방어측 낫병 → 공격측 나루토 공격 / 피해 14 / HP 22/50
+[방어측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 방어측 소리 중갑병 → 공격측 카카시 공격 / 피해 14 / HP 38/80
+[PHASE 5 - HeavyMelee] 방어측 철구병 → 공격측 카카시 공격 / 피해 14 / HP 24/80
+[공격측 · PHASE 6 - Healer]
+[PHASE 6 - Healer] 공격측 사쿠라 → 공격측 카카시 치료 / 회복 20 / HP 44/80
+[방어측 · PHASE 6 - Healer]
+Sprite integration: PASS (0 failures)
+
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 591.86 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 4060 Ti
+
+Sprite scenario A: 10 events
+Sprite scenario B: 12 events
+[공격측 · PHASE 1 - Gunpowder]
+[공격측 · PHASE 2 - Magic]
+[PHASE 2 - Magic] 공격측 사스케 → 방어측 다트병 공격 / 피해 14 / HP 36/50
+[공격측 · PHASE 3 - Ranged]
+[공격측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 공격측 카카시 → 방어측 소리 중갑병 공격 / 피해 22 / HP 28/50
+[PHASE 4 - LightMelee] 공격측 나루토 → 방어측 발톱병 공격 / 피해 14 / HP 36/50
+[공격측 · PHASE 5 - HeavyMelee]
+[방어측 · PHASE 1 - Gunpowder]
+[방어측 · PHASE 2 - Magic]
+[방어측 · PHASE 3 - Ranged]
+[PHASE 3 - Ranged] 방어측 다트병 → 공격측 카카시 공격 / 피해 14 / HP 66/80
+[방어측 · PHASE 4 - LightMelee]
+[PHASE 4 - LightMelee] 방어측 발톱병 → 공격측 나루토 공격 / 피해 14 / HP 36/50
+[PHASE 4 - LightMelee] 방어측 봉술병 → 공격측 카카시 공격 / 피해 14 / HP 52/80
+[PHASE 4 - LightMelee] 방어측 낫병 → 공격측 나루토 공격 / 피해 14 / HP 22/50
+[방어측 · PHASE 5 - HeavyMelee]
+[PHASE 5 - HeavyMelee] 방어측 소리 중갑병 → 공격측 카카시 공격 / 피해 14 / HP 38/80
+[PHASE 5 - HeavyMelee] 방어측 철구병 → 공격측 카카시 공격 / 피해 14 / HP 24/80
+[공격측 · PHASE 6 - Healer]
+[PHASE 6 - Healer] 공격측 사쿠라 → 공격측 카카시 치료 / 회복 20 / HP 44/80
+[방어측 · PHASE 6 - Healer]
+Sprite integration: PASS (0 failures)

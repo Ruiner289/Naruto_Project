@@ -1,0 +1,646 @@
+{
+  "id": "neji",
+  "source": "메인캐/휴우가 네지/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Neji Hyuga.png",
+  "source_sha256": "739a9dbe55580e3f9a29f78de399422db587bcc44ded4bb5ff8ca418bd18603e",
+  "default_facing": "right",
+  "scale": 1.8462,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/neji/idle_00.png",
+          "source_rect": [
+            0,
+            1259,
+            46,
+            58
+          ],
+          "source_foot": [
+            15,
+            52
+          ],
+          "bbox": [
+            5,
+            2,
+            40,
+            52
+          ],
+          "source_body_core": [
+            14.784387895460798,
+            28.43328748280605
+          ],
+          "registered_body_core": [
+            119.7843878954608,
+            76.43328748280605
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/idle_01.png",
+          "source_rect": [
+            46,
+            1259,
+            46,
+            58
+          ],
+          "source_foot": [
+            18,
+            52
+          ],
+          "bbox": [
+            5,
+            1,
+            40,
+            52
+          ],
+          "source_body_core": [
+            17.771779796900052,
+            27.962854088722608
+          ],
+          "registered_body_core": [
+            119.77177979690005,
+            75.96285408872261
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/idle_02.png",
+          "source_rect": [
+            92,
+            1259,
+            46,
+            58
+          ],
+          "source_foot": [
+            22,
+            51
+          ],
+          "bbox": [
+            6,
+            0,
+            43,
+            52
+          ],
+          "source_body_core": [
+            21.639254884143572,
+            26.8468877782826
+          ],
+          "registered_body_core": [
+            119.63925488414357,
+            75.84688777828259
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/idle_03.png",
+          "source_rect": [
+            138,
+            1259,
+            44,
+            58
+          ],
+          "source_foot": [
+            23,
+            51
+          ],
+          "bbox": [
+            6,
+            0,
+            44,
+            52
+          ],
+          "source_body_core": [
+            23.362702229995627,
+            27.089199825098383
+          ],
+          "registered_body_core": [
+            120.36270222999562,
+            76.08919982509838
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/neji/move_00.png",
+          "source_rect": [
+            0,
+            391,
+            59,
+            50
+          ],
+          "source_foot": [
+            35,
+            44
+          ],
+          "bbox": [
+            5,
+            4,
+            56,
+            43
+          ],
+          "source_body_core": [
+            34.553641346906815,
+            24.276951187679458
+          ],
+          "registered_body_core": [
+            119.55364134690682,
+            80.27695118767946
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/move_01.png",
+          "source_rect": [
+            59,
+            391,
+            59,
+            50
+          ],
+          "source_foot": [
+            34,
+            43
+          ],
+          "bbox": [
+            16,
+            3,
+            56,
+            43
+          ],
+          "source_body_core": [
+            34.1081921880401,
+            23.459039059799515
+          ],
+          "registered_body_core": [
+            120.1081921880401,
+            80.45903905979952
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/move_02.png",
+          "source_rect": [
+            118,
+            391,
+            59,
+            50
+          ],
+          "source_foot": [
+            36,
+            45
+          ],
+          "bbox": [
+            13,
+            4,
+            56,
+            43
+          ],
+          "source_body_core": [
+            36.209511568123396,
+            25.407822254865955
+          ],
+          "registered_body_core": [
+            120.20951156812339,
+            80.40782225486595
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/move_03.png",
+          "source_rect": [
+            177,
+            391,
+            59,
+            50
+          ],
+          "source_foot": [
+            35,
+            44
+          ],
+          "bbox": [
+            11,
+            4,
+            56,
+            44
+          ],
+          "source_body_core": [
+            35.18738101713353,
+            24.26788142507479
+          ],
+          "registered_body_core": [
+            120.18738101713353,
+            80.26788142507479
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/move_04.png",
+          "source_rect": [
+            236,
+            391,
+            59,
+            50
+          ],
+          "source_foot": [
+            32,
+            45
+          ],
+          "bbox": [
+            18,
+            2,
+            56,
+            45
+          ],
+          "source_body_core": [
+            32.110732538330495,
+            25.081771720613286
+          ],
+          "registered_body_core": [
+            120.1107325383305,
+            80.08177172061329
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/move_05.png",
+          "source_rect": [
+            295,
+            391,
+            57,
+            50
+          ],
+          "source_foot": [
+            35,
+            44
+          ],
+          "bbox": [
+            10,
+            0,
+            56,
+            45
+          ],
+          "source_body_core": [
+            34.57815064745577,
+            23.967171256611344
+          ],
+          "registered_body_core": [
+            119.57815064745577,
+            79.96717125661135
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/neji/attack_00.png",
+          "source_rect": [
+            0,
+            0,
+            63,
+            52
+          ],
+          "source_foot": [
+            26,
+            47
+          ],
+          "bbox": [
+            8,
+            0,
+            42,
+            47
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/attack_01.png",
+          "source_rect": [
+            63,
+            0,
+            63,
+            52
+          ],
+          "source_foot": [
+            23,
+            46
+          ],
+          "bbox": [
+            5,
+            2,
+            40,
+            46
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/attack_02.png",
+          "source_rect": [
+            126,
+            0,
+            63,
+            52
+          ],
+          "source_foot": [
+            24,
+            47
+          ],
+          "bbox": [
+            8,
+            4,
+            61,
+            47
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/attack_03.png",
+          "source_rect": [
+            189,
+            0,
+            63,
+            52
+          ],
+          "source_foot": [
+            24,
+            47
+          ],
+          "bbox": [
+            8,
+            3,
+            56,
+            47
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/attack_04.png",
+          "source_rect": [
+            252,
+            0,
+            61,
+            52
+          ],
+          "source_foot": [
+            24,
+            47
+          ],
+          "bbox": [
+            8,
+            3,
+            56,
+            47
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/neji/hit_00.png",
+          "source_rect": [
+            0,
+            906,
+            49,
+            64
+          ],
+          "source_foot": [
+            32,
+            58
+          ],
+          "bbox": [
+            15,
+            6,
+            44,
+            58
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/hit_01.png",
+          "source_rect": [
+            49,
+            906,
+            47,
+            64
+          ],
+          "source_foot": [
+            27,
+            58
+          ],
+          "bbox": [
+            18,
+            5,
+            37,
+            58
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/neji/ko_00.png",
+          "source_rect": [
+            264,
+            972,
+            64,
+            45
+          ],
+          "source_foot": [
+            34,
+            34
+          ],
+          "bbox": [
+            1,
+            11,
+            64,
+            34
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/ko_01.png",
+          "source_rect": [
+            198,
+            972,
+            66,
+            45
+          ],
+          "source_foot": [
+            40,
+            39
+          ],
+          "bbox": [
+            6,
+            5,
+            59,
+            39
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/ko_02.png",
+          "source_rect": [
+            132,
+            972,
+            66,
+            45
+          ],
+          "source_foot": [
+            34,
+            30
+          ],
+          "bbox": [
+            1,
+            7,
+            64,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/ko_03.png",
+          "source_rect": [
+            66,
+            972,
+            66,
+            45
+          ],
+          "source_foot": [
+            40,
+            34
+          ],
+          "bbox": [
+            6,
+            0,
+            59,
+            34
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/neji/ko_04.png",
+          "source_rect": [
+            0,
+            972,
+            66,
+            45
+          ],
+          "source_foot": [
+            33,
+            38
+          ],
+          "bbox": [
+            1,
+            20,
+            64,
+            38
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          48,
+          152,
+          152
+        ]
+      ]
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT"
+}

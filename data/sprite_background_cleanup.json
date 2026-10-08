@@ -1,0 +1,1191 @@
+{
+  "profiles": 22,
+  "frames": 507,
+  "affected_frames": 197,
+  "enclosed_pixels_removed": 2438,
+  "corrections": [
+    {
+      "id": "naruto",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "naruto",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "naruto",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "naruto",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "naruto",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "sasuke",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "sasuke",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "sasuke",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "sasuke",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "sasuke",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "sasuke",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "sasuke",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "sasuke",
+      "state": "ranged_attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 14
+    },
+    {
+      "id": "sasuke",
+      "state": "ranged_attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "sakura",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "sakura",
+      "state": "move",
+      "frame": 5,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "sakura",
+      "state": "attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "sakura",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "sakura",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 17
+    },
+    {
+      "id": "sakura",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 17
+    },
+    {
+      "id": "sakura",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 17
+    },
+    {
+      "id": "sakura",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kakashi",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "kakashi",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "kakashi",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 30
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 16
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 21
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 21
+    },
+    {
+      "id": "generic_big_sound",
+      "state": "ko",
+      "frame": 4,
+      "enclosed_pixels_removed": 21
+    },
+    {
+      "id": "generic_dart",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_dart",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_dart",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "generic_claw",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_claw",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_claw",
+      "state": "attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 21
+    },
+    {
+      "id": "generic_claw",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 26
+    },
+    {
+      "id": "generic_claw",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "generic_claw",
+      "state": "attack",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_claw",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "generic_pole",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 88
+    },
+    {
+      "id": "generic_pole",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 79
+    },
+    {
+      "id": "generic_pole",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 73
+    },
+    {
+      "id": "generic_pole",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 53
+    },
+    {
+      "id": "generic_pole",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 88
+    },
+    {
+      "id": "generic_pole",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 79
+    },
+    {
+      "id": "generic_pole",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 73
+    },
+    {
+      "id": "generic_pole",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 53
+    },
+    {
+      "id": "generic_pole",
+      "state": "attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 36
+    },
+    {
+      "id": "generic_pole",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 36
+    },
+    {
+      "id": "generic_pole",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 27
+    },
+    {
+      "id": "generic_pole",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_pole",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 18
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 103
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 14
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 103
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 103
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 4,
+      "enclosed_pixels_removed": 14
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 5,
+      "enclosed_pixels_removed": 103
+    },
+    {
+      "id": "generic_pole",
+      "state": "ko",
+      "frame": 6,
+      "enclosed_pixels_removed": 14
+    },
+    {
+      "id": "generic_flail",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "generic_flail",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_flail",
+      "state": "idle",
+      "frame": 5,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 5,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 6,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 7,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 8,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 9,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 10,
+      "enclosed_pixels_removed": 18
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 11,
+      "enclosed_pixels_removed": 18
+    },
+    {
+      "id": "generic_flail",
+      "state": "move",
+      "frame": 12,
+      "enclosed_pixels_removed": 17
+    },
+    {
+      "id": "generic_flail",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 9
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 5,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 6,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_flail",
+      "state": "ko",
+      "frame": 7,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "generic_scythe",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "generic_scythe",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_scythe",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "generic_scythe",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 42
+    },
+    {
+      "id": "generic_scythe",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 18
+    },
+    {
+      "id": "generic_scythe",
+      "state": "ko",
+      "frame": 4,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "shikamaru",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shikamaru",
+      "state": "idle",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shikamaru",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shikamaru",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "shikamaru",
+      "state": "ranged_attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "shikamaru",
+      "state": "ranged_attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "shino",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "hit",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "shino",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "shino",
+      "state": "ranged_attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 11
+    },
+    {
+      "id": "shino",
+      "state": "ranged_attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "choji",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 10
+    },
+    {
+      "id": "choji",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "choji",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 13
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 31
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 4,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "ino",
+      "state": "idle",
+      "frame": 5,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "ino",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "ino",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 27
+    },
+    {
+      "id": "ino",
+      "state": "move",
+      "frame": 5,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "ino",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "ino",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "ino",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "ino",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 13
+    },
+    {
+      "id": "ino",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 4,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 5,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 6,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 7,
+      "enclosed_pixels_removed": 15
+    },
+    {
+      "id": "ino",
+      "state": "ko",
+      "frame": 8,
+      "enclosed_pixels_removed": 8
+    },
+    {
+      "id": "kiba",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "kiba",
+      "state": "idle",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "kiba",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "move",
+      "frame": 5,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "kiba",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "kiba",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kiba",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "kiba",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "kiba",
+      "state": "ko",
+      "frame": 7,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "hinata",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 44
+    },
+    {
+      "id": "hinata",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "asuma",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "asuma",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 13
+    },
+    {
+      "id": "asuma",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 13
+    },
+    {
+      "id": "asuma",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "asuma",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "asuma",
+      "state": "attack",
+      "frame": 4,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "asuma",
+      "state": "attack",
+      "frame": 5,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "asuma",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "asuma",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "kurenai",
+      "state": "idle",
+      "frame": 0,
+      "enclosed_pixels_removed": 10
+    },
+    {
+      "id": "kurenai",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 12
+    },
+    {
+      "id": "kurenai",
+      "state": "idle",
+      "frame": 2,
+      "enclosed_pixels_removed": 10
+    },
+    {
+      "id": "kurenai",
+      "state": "idle",
+      "frame": 3,
+      "enclosed_pixels_removed": 10
+    },
+    {
+      "id": "kurenai",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "kurenai",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 11
+    },
+    {
+      "id": "kurenai",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "kurenai",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 20
+    },
+    {
+      "id": "kurenai",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 33
+    },
+    {
+      "id": "kurenai",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 33
+    },
+    {
+      "id": "lee",
+      "state": "idle",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "lee",
+      "state": "move",
+      "frame": 0,
+      "enclosed_pixels_removed": 6
+    },
+    {
+      "id": "lee",
+      "state": "move",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "lee",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "lee",
+      "state": "move",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "lee",
+      "state": "move",
+      "frame": 5,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "lee",
+      "state": "ko",
+      "frame": 4,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "guy",
+      "state": "move",
+      "frame": 2,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "guy",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "guy",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "guy",
+      "state": "attack",
+      "frame": 3,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "guy",
+      "state": "attack",
+      "frame": 4,
+      "enclosed_pixels_removed": 4
+    },
+    {
+      "id": "guy",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 59
+    },
+    {
+      "id": "guy",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "guy",
+      "state": "ko",
+      "frame": 1,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "guy",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 7
+    },
+    {
+      "id": "guy",
+      "state": "ko",
+      "frame": 3,
+      "enclosed_pixels_removed": 11
+    },
+    {
+      "id": "tenten",
+      "state": "move",
+      "frame": 3,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "tenten",
+      "state": "hit",
+      "frame": 0,
+      "enclosed_pixels_removed": 5
+    },
+    {
+      "id": "tenten",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 3
+    },
+    {
+      "id": "tenten",
+      "state": "ranged_attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 29
+    },
+    {
+      "id": "neji",
+      "state": "attack",
+      "frame": 0,
+      "enclosed_pixels_removed": 2
+    },
+    {
+      "id": "neji",
+      "state": "attack",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "neji",
+      "state": "attack",
+      "frame": 2,
+      "enclosed_pixels_removed": 11
+    },
+    {
+      "id": "neji",
+      "state": "hit",
+      "frame": 1,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "neji",
+      "state": "ko",
+      "frame": 0,
+      "enclosed_pixels_removed": 1
+    },
+    {
+      "id": "neji",
+      "state": "ko",
+      "frame": 2,
+      "enclosed_pixels_removed": 1
+    }
+  ],
+  "sheet_fragment_fix": "generic_scythe hit and ko row bounds exclude adjacent poses"
+}

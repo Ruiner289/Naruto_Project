@@ -1,0 +1,747 @@
+{
+  "id": "hinata",
+  "source": "메인캐/휴우가 히나타/DS _ DSi - Naruto Shippuden_ Ninja Council 3 - Playable Characters - Hinata Hyuga.png",
+  "source_sha256": "57b1835883e2fe89e214e0fc3f7fa11f7927b5b870b8007e21acca97f5f14724",
+  "default_facing": "right",
+  "scale": 1.7778,
+  "canvas": [
+    240,
+    120
+  ],
+  "pivot": [
+    120,
+    100
+  ],
+  "attack_impact_frame": 2,
+  "approach_seconds": 0.24,
+  "return_seconds": 0.22,
+  "hit_pause_seconds": 0.08,
+  "animations": {
+    "idle": {
+      "fps": 7,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/idle_00.png",
+          "source_rect": [
+            0,
+            12,
+            46,
+            55
+          ],
+          "source_foot": [
+            13,
+            55
+          ],
+          "bbox": [
+            3,
+            3,
+            36,
+            55
+          ],
+          "source_body_core": [
+            12.699132111861138,
+            30.222275795564126
+          ],
+          "registered_body_core": [
+            119.69913211186113,
+            75.22227579556413
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/idle_01.png",
+          "source_rect": [
+            46,
+            12,
+            44,
+            55
+          ],
+          "source_foot": [
+            12,
+            55
+          ],
+          "bbox": [
+            1,
+            2,
+            34,
+            55
+          ],
+          "source_body_core": [
+            12.310817805383023,
+            30.115683229813666
+          ],
+          "registered_body_core": [
+            120.31081780538302,
+            75.11568322981367
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/idle_02.png",
+          "source_rect": [
+            90,
+            12,
+            44,
+            55
+          ],
+          "source_foot": [
+            15,
+            55
+          ],
+          "bbox": [
+            1,
+            1,
+            34,
+            55
+          ],
+          "source_body_core": [
+            15.02266355140187,
+            30.1
+          ],
+          "registered_body_core": [
+            120.02266355140188,
+            75.1
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/idle_03.png",
+          "source_rect": [
+            134,
+            12,
+            42,
+            55
+          ],
+          "source_foot": [
+            16,
+            55
+          ],
+          "bbox": [
+            1,
+            1,
+            34,
+            55
+          ],
+          "source_body_core": [
+            16.234978016609674,
+            30.273082559843672
+          ],
+          "registered_body_core": [
+            120.23497801660967,
+            75.27308255984367
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ],
+      "playback_order": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    "move": {
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/move_00.png",
+          "source_rect": [
+            0,
+            152,
+            54,
+            57
+          ],
+          "source_foot": [
+            28,
+            55
+          ],
+          "bbox": [
+            3,
+            9,
+            46,
+            56
+          ],
+          "source_body_core": [
+            28.46810207336523,
+            32.26694577352472
+          ],
+          "registered_body_core": [
+            120.46810207336523,
+            77.26694577352472
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/move_01.png",
+          "source_rect": [
+            54,
+            152,
+            52,
+            57
+          ],
+          "source_foot": [
+            27,
+            57
+          ],
+          "bbox": [
+            7,
+            9,
+            44,
+            56
+          ],
+          "source_body_core": [
+            27.07109634551495,
+            33.72624584717608
+          ],
+          "registered_body_core": [
+            120.07109634551495,
+            76.72624584717607
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/move_02.png",
+          "source_rect": [
+            106,
+            152,
+            52,
+            57
+          ],
+          "source_foot": [
+            27,
+            57
+          ],
+          "bbox": [
+            3,
+            8,
+            43,
+            56
+          ],
+          "source_body_core": [
+            27.160915083365644,
+            34.455409073284216
+          ],
+          "registered_body_core": [
+            120.16091508336564,
+            77.45540907328422
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/move_03.png",
+          "source_rect": [
+            158,
+            152,
+            52,
+            57
+          ],
+          "source_foot": [
+            27,
+            56
+          ],
+          "bbox": [
+            2,
+            8,
+            44,
+            57
+          ],
+          "source_body_core": [
+            27.143117408906882,
+            32.67753036437247
+          ],
+          "registered_body_core": [
+            120.14311740890687,
+            76.67753036437247
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/move_04.png",
+          "source_rect": [
+            210,
+            152,
+            52,
+            57
+          ],
+          "source_foot": [
+            25,
+            58
+          ],
+          "bbox": [
+            10,
+            9,
+            44,
+            57
+          ],
+          "source_body_core": [
+            24.92683465959328,
+            34.59593280282935
+          ],
+          "registered_body_core": [
+            119.92683465959328,
+            76.59593280282935
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/move_05.png",
+          "source_rect": [
+            262,
+            152,
+            50,
+            57
+          ],
+          "source_foot": [
+            27,
+            57
+          ],
+          "bbox": [
+            1,
+            8,
+            43,
+            57
+          ],
+          "source_body_core": [
+            26.96050724637681,
+            33.80833333333333
+          ],
+          "registered_body_core": [
+            119.9605072463768,
+            76.80833333333334
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ]
+    },
+    "attack": {
+      "fps": 12,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/attack_00.png",
+          "source_rect": [
+            0,
+            784,
+            62,
+            53
+          ],
+          "source_foot": [
+            24,
+            53
+          ],
+          "bbox": [
+            3,
+            3,
+            41,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/attack_01.png",
+          "source_rect": [
+            62,
+            784,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            49,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/attack_02.png",
+          "source_rect": [
+            122,
+            784,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            50,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/attack_03.png",
+          "source_rect": [
+            182,
+            784,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            51,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/attack_04.png",
+          "source_rect": [
+            242,
+            784,
+            58,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            2,
+            39,
+            53
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ]
+    },
+    "hit": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/hit_00.png",
+          "source_rect": [
+            0,
+            1126,
+            54,
+            56
+          ],
+          "source_foot": [
+            13,
+            56
+          ],
+          "bbox": [
+            3,
+            1,
+            39,
+            56
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/hit_01.png",
+          "source_rect": [
+            54,
+            1126,
+            50,
+            56
+          ],
+          "source_foot": [
+            22,
+            56
+          ],
+          "bbox": [
+            5,
+            2,
+            43,
+            56
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ]
+    },
+    "ko": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/ko_00.png",
+          "source_rect": [
+            182,
+            1196,
+            58,
+            39
+          ],
+          "source_foot": [
+            21,
+            30
+          ],
+          "bbox": [
+            1,
+            1,
+            54,
+            30
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ko_01.png",
+          "source_rect": [
+            122,
+            1196,
+            60,
+            39
+          ],
+          "source_foot": [
+            23,
+            29
+          ],
+          "bbox": [
+            1,
+            4,
+            54,
+            29
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ko_02.png",
+          "source_rect": [
+            62,
+            1196,
+            60,
+            39
+          ],
+          "source_foot": [
+            20,
+            32
+          ],
+          "bbox": [
+            1,
+            7,
+            54,
+            32
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ko_03.png",
+          "source_rect": [
+            0,
+            1196,
+            62,
+            39
+          ],
+          "source_foot": [
+            35,
+            39
+          ],
+          "bbox": [
+            3,
+            18,
+            58,
+            39
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ]
+    },
+    "ranged_attack": {
+      "fps": 9,
+      "loop": false,
+      "frames": [
+        {
+          "path": "res://assets/sprite_processed/hinata/ranged_attack_00.png",
+          "source_rect": [
+            0,
+            646,
+            62,
+            53
+          ],
+          "source_foot": [
+            24,
+            53
+          ],
+          "bbox": [
+            3,
+            3,
+            41,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ranged_attack_01.png",
+          "source_rect": [
+            62,
+            646,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            52,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ranged_attack_02.png",
+          "source_rect": [
+            122,
+            646,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            45,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ranged_attack_03.png",
+          "source_rect": [
+            182,
+            646,
+            60,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            4,
+            39,
+            53
+          ]
+        },
+        {
+          "path": "res://assets/sprite_processed/hinata/ranged_attack_04.png",
+          "source_rect": [
+            242,
+            646,
+            58,
+            53
+          ],
+          "source_foot": [
+            22,
+            53
+          ],
+          "bbox": [
+            6,
+            2,
+            39,
+            53
+          ]
+        }
+      ],
+      "background_colors": [
+        [
+          0,
+          128,
+          128
+        ],
+        [
+          0,
+          255,
+          255
+        ],
+        [
+          32,
+          136,
+          8
+        ]
+      ],
+      "default_facing": "left"
+    }
+  },
+  "notes": [],
+  "background_removal": "EXACT_REVIEWED_SHEET_KEYS_INCLUDING_ENCLOSED_GAPS",
+  "move_uses_stance": false,
+  "alignment": "TORSO_REGISTERED_IDLE_AND_MOVE_WITH_FIXED_BODY_HEIGHT",
+  "ranged_impact_frame": 1
+}
