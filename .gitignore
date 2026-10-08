@@ -1,1 +1,7 @@
 .godot/
+
+# Root-level review captures (game artwork belongs in assets/)
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
